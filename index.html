@@ -365,7 +365,7 @@
                         <div class="card-content grey lighten-5">
                             <div id="sendmsg_card">
                                 <br>
-                                <form>
+                                <form action="src/php/sender.php" method="POST" id="ajax-form">
                                     <div class="row">
                                         <div class="input-field col s12 l6">
                                             <i class="material-icons prefix blue-grey-text text-darken-4">account_circle</i>
@@ -398,15 +398,18 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col s8 offset-s2 l4 offset-l8">
-                                            <a href="#!" class="btn btn-rounded blue-grey darken-2 btn-large right lang-late" data-lang-key="send">Send <i class="material-icons right">send</i></a>
+                                        <div class="col s12 l4">
+                                            <div class="g-recaptcha" data-size="invisible" data-callback="triggerForm" data-badge="inline" data-sitekey="6LcrczwUAAAAAJIePuacv5EpnEyjzNJumbwNJ5HJ"></div>
+                                        </div>
+                                        <div class="col s12 l4 offset-l4">
+                                            <a id="#ajax-sendbtn" class="btn btn-rounded blue-grey darken-2 btn-large right lang-late" style="cursor: pointer;" data-lang-key="send">Send <i class="material-icons right">send</i></a>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                             <div id="contact_card">
                                 <div class="container">
-                                    <br>
+                                    <br><br>
                                     <div class="row">
                                         <div class="col s12 m6 center">
                                             <i class="material-icons alpha-1">phone</i>
@@ -416,6 +419,13 @@
                                             <i class="material-icons alpha-1">email</i>
                                             <p>mike.eling@virtualit.berlin</p>
                                         </div>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col s12">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.066327219605!2d13.34023131634118!3d52.44171324977962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85abf61cd59b3%3A0x694bcf360c8b845e!2sLeonorenstra%C3%9Fe+43%2C+12247+Berlin!5e0!3m2!1sen!2sde!4v1510369420824" style="min-height: 256px; width:100%; border-radius: 2px;" class="z-depth-1" frameborder="0" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -443,15 +453,8 @@
                     <a href="#impressum_modal" class="btn btn-outlined modal-trigger">IMPRESSUM</a>
                 </div>
             </div>
-            <br>
-            <div class="row">
-                <div class="col s12 l6 offset-l3">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.066327219605!2d13.34023131634118!3d52.44171324977962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a85abf61cd59b3%3A0x694bcf360c8b845e!2sLeonorenstra%C3%9Fe+43%2C+12247+Berlin!5e0!3m2!1sen!2sde!4v1510369420824" style="min-height: 256px; width:100%; border-radius: 2px;" class="z-depth-1" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
         </div>
     </div>
-    <br>
     <p class="alpha-3 center blue-grey-text text-darken-3"><b>It's here, where the magic happens.</b></p>
     <hr class="alpha-3" style="width: 95%">
     <div class="center">
@@ -1060,8 +1063,10 @@
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="inc/materializecss/js/materialize.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="src/js/init.js"></script>
     <script src="src/js/lang-late.js"></script>
+    <script src="src/js/sender.js"></script>
     <!-- COOKIES -->
     <script type="text/javascript">
     $('.parallax img').attr("src", "https://source.unsplash.com/FZpCcPss9to/" + $(window).width() + "x" + $(window).height());
