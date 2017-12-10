@@ -1141,18 +1141,6 @@
             diceSlogan();
         }, 8000);
 
-        $('.infinite-container').infiniteScroll({
-            path: '.pagination__next',
-            append: 'img',
-            history: false,
-
-        });
-
-        $('.masonry-grid').masonry({
-          // options
-          itemSelector: 'img'
-        });
-
         var interv = setInterval(function() {
             $('.parallax img').ready(function() {
                 $('.welcome-screen').fadeOut();
