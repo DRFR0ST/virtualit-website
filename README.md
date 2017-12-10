@@ -26,4 +26,4 @@ For changelogs, check out the [CHANGELOG.md](CHANGELOG.md).
 ## Copyright and license
 Code copyright 2017 VirtualIT. Code released under the MIT license.
 <br><br>
-<a href="http://137.74.196.65/virtualit/web/" align="center">The beta live preview is available here</a>
+<a href="http://virtualit.online/" align="center">The beta live preview is available here</a>
