@@ -365,6 +365,9 @@
                         <div class="card-content grey lighten-5">
                             <div id="sendmsg_card">
                                 <br>
+                                <div class="container center" id="#post-ajax-form" style="display: none; opacity:1; transition: all 0.6s ease;">
+                                    <h4 class="lang-late" data-lang-key="postajax">Thank you!<br>We will review your request as soon as possible.</h4>
+                                </div>
                                 <form action="src/php/sender.php" method="POST" id="ajax-form">
                                     <div class="row">
                                         <div class="input-field col s12 l6">
@@ -401,8 +404,8 @@
                                         <div class="col s12 l4">
                                             <div class="g-recaptcha" data-size="invisible" data-callback="triggerForm" data-badge="inline" data-sitekey="6LcrczwUAAAAAJIePuacv5EpnEyjzNJumbwNJ5HJ"></div>
                                         </div>
-                                        <div class="col s12 l4 offset-l4">
-                                            <a id="#ajax-sendbtn" class="btn btn-rounded blue-grey darken-2 btn-large right lang-late" style="cursor: pointer;" data-lang-key="send">Send <i class="material-icons right">send</i></a>
+                                        <div class="col s12 l4 offset-l4"> 
+                                            <a onclick="grecaptcha.execute()" id="ajax-sendbtn" class="btn btn-rounded blue-grey darken-2 btn-large right lang-late" style="cursor: pointer;" type="submit" data-lang-key="send">Send <i class="material-icons right">send</i></a>
                                         </div>
                                     </div>
                                 </form>

@@ -1,4 +1,4 @@
-  $(function() {
+
       // Get the form.
       var form = $('#ajax-form');
 
@@ -26,12 +26,12 @@
 
             Materialize.toast(response, 4000);
 
-            $('#ajax-form').fadeOut();
+            $('#ajax-form').fadeOut("slow", function() {
+                $('#post-ajax-form').fadeIn("slow", function() {
+                    $('#post-ajax-form').css("display", "block").css("opacity", 1);
+                });
+            });
 
-            // Clear the form.
-            $('#description').val('');
-            $('#att_link').val('');
-            $('#email').val('');
         }).fail(function(data) {
             // Make sure that the formMessages div has the 'error' class.
             grecaptcha.reset();
@@ -44,10 +44,10 @@
             }
         });
     });
-  });
 
-  $("#ajax-sendbtn").click( function() {
-      grecaptcha.execute();
+
+  $("#ajax-sendbtn").click(function() {
+      //grecaptcha.execute();
   });
 
   function triggerForm()

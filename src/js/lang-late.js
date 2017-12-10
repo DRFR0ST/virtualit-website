@@ -83,6 +83,7 @@ var languageMap = {
 	learnmore: "Learn More",
 	language: "Language",
     toast: "Language changed",
+    postajax: "Thank you!<br>We will review your request as soon as possible.", //NEW
 
     cookieDeclaration: "By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed. By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed.",
     cookieDeclarationTitle: "Cookies Declaration",
