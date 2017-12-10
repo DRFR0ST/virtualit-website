@@ -1,0 +1,67 @@
+.alpha-0 {
+    opacity: 1.0!important;
+    filter: Alpha(opacity=100)!important;
+}
+
+.alpha-1 {
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+}
+
+.alpha-2 {
+    opacity: 0.6;
+    filter: Alpha(opacity=60);
+}
+
+.alpha-3 {
+    opacity: 0.4;
+    filter: Alpha(opacity=40);
+}
+
+.alpha-4 {
+    opacity: 0.2;
+    filter: Alpha(opacity=20);
+}
+
+.alpha-5 {
+    opacity: 0.0;
+    filter: Alpha(opacity=0);
+}
+
+.round-corners {
+    border-radius: 2px;
+}
+
+.dim-on-hover {
+    opacity: 0.90;
+    transition: all 0.3s ease-in-out;
+}
+
+.dim-on-hover:hover {
+    opacity: 0.65;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-outlined,
+.btn-outlined.btn-large {
+    background-color: transparent;
+    color: #455A64;
+    border: 2px solid #455A64;
+}
+
+.btn.btn-outlined.disabled,
+.btn-outlined.disabled.btn-large {
+    border: 2px solid transparent;
+}
+
+.btn.btn-outlined:hover,
+.btn-outlined.btn-large:hover {
+    background-color: #37474F;
+    color: #fff;
+    border: 2px solid #37474F;
+}
+
+.btn.btn-rounded,
+.btn-rounded.btn-large {
+    border-radius: 30px;
+}
