@@ -14,7 +14,7 @@ The website is compatible with:
 - IE 11+
 
 ## Resources Used:
-The website is working with:
+The website depends on:
 
 - [Materializecss](https://github.com/Dogfalo/materialize)
 - [css-spinners](https://github.com/jlong/css-spinners)
