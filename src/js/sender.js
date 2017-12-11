@@ -28,7 +28,7 @@
 
             $('#ajax-form').fadeOut("slow", function() {
                 $('#post-ajax-form').fadeIn("slow", function() {
-                    $('#post-ajax-form').css("display", "block").css("opacity", 1);
+                    $('#post-ajax-form').css("display", "initial").css("opacity", 1);
                 });
             });
 

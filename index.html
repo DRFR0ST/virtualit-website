@@ -147,9 +147,10 @@
         <div class="popup-container">
             <br>
             <div class="section" style="padding-right: 5%; padding-left: 5%;">
-                <!-- <div class="container"> -->
-                <h3 class="center alpha-1 lang-late" data-lang-key="benefits">Benefits</h3>
-                <hr class="alpha-3" style="width: 45%;">
+                <div class="container"> 
+                    <h3 class="center alpha-1 lang-late" data-lang-key="benefits">Benefits</h3>
+                    <hr class="alpha-3" style="width: 45%;">
+                </div>
                 <br>
                 <br>
                 <div class="row center valign-wrapper">
@@ -287,13 +288,14 @@
                 </div>
                 <div class="logo-slider center valign-wrapper">
                     <div class="container">
-                        <img src="http://photon.one/img/logo_black_right_logo.png" class="responsive-img valign " />
+                        <img src="http://photon.one/img/logo_black_right_logo.png" class="responsive-img valign" />
                         <div class="progress" style="display: none; min-height: 100%; opacity:0; transform: translateY(40px);">
                             <div class="indeterminate"></div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -301,9 +303,10 @@
         <div class="popup-container">
             <div class="section" style="padding-right: 5%; padding-left: 5%;">
                 <br><br>
-                <!-- <div class="container"> -->
-                <h3 class="center alpha-1 lang-late" data-lang-key="ourprojects">Our Projects</h3>
-                <hr class="alpha-3" style="width: 45%;">
+                <div class="container">
+                    <h3 class="center alpha-1 lang-late" data-lang-key="ourprojects">Our Projects</h3>
+                    <hr class="alpha-3" style="width: 45%;">
+                </div>
                 <br>
                 <br>
                 <div class="row">
@@ -1141,11 +1144,13 @@
       $('#preview-title-'+id.split('-')[2]).css("opacity", 0);
     });
 
+
+    var sloganDiceInterval = null;
     //ONLOAD
     $(document).ready(function() {
         diceSlogan();
         //changeLogoSlide(1);
-        setInterval(function() {
+        sloganDiceInterval = setInterval(function() {
             diceSlogan();
         }, 8000);
 
@@ -1183,7 +1188,7 @@
         $('.logo-slider img').fadeOut(function() {
             $('.logo-slider .progress').fadeIn();
 
-            var logoIndexLimit = 3; //CHANGE IF ADDING!
+            var logoIndexLimit = 1; //CHANGE IF ADDING!
 
             if (dir == -1 && logoIndex == 0) logoIndex = logoIndexLimit + 1;
             logoIndex += dir;
@@ -1192,21 +1197,14 @@
 
             var setLogoURI = "";
 
+
             switch (logoIndex) {
                 case 0:
-                    setLogoURI = "http://photon.one/img/logo_black_right_logo.png";
+                    setLogoURI = "src/img/companies/logo01.png";
                     break;
 
                 case 1:
-                    setLogoURI = "https://i2.wp.com/137.74.196.65/karuutek/wp-content/uploads/2017/10/cropped-logo_clear.png?fit=770%2C286";
-                    break;
-
-                case 2:
-                    setLogoURI = "http://photon.one/img/logo_black_right_logo.png";
-                    break;
-
-                case 3:
-                    setLogoURI = "https://i2.wp.com/137.74.196.65/karuutek/wp-content/uploads/2017/10/cropped-logo_clear.png?fit=770%2C286";
+                    setLogoURI = "src/img/companies/logo01.png";
                     break;
             }
 

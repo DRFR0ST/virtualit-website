@@ -263,7 +263,10 @@ function changeLanguage(language) {
     	}
     });
 
-    diceSlogan();
+    clearInterval(sloganDiceInterval);
+    sloganDiceInterval = setInterval(function() {
+            diceSlogan();
+    }, 8000);
 }
 
 function getTranslation(language, key) {
