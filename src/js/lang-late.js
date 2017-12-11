@@ -65,7 +65,7 @@ var languageMap = {
 
 	ourclients: "Our Clients",
 
-    ourprojects: "Our Projects", //NEW
+    ourprojects: "Our Projects",
 
 	getintouch: "Get in Touch",
 	getintouchH1: "Send Message",
@@ -139,6 +139,8 @@ var languageMap = {
     benefitsH5Text: "Some text here...",
 
 	ourclients: "Unsere Kunden",
+	
+	ourprojects: "Unsere Projekte",
 
 	getintouch: "Get in Touch",
 	getintouchH1: "Nachricht senden",
@@ -210,6 +212,8 @@ var languageMap = {
     benefitsH5Text: "Some text here...",
 
 	ourclients: "Nasi klienci",
+	
+	ourprojects: "Nasze realizacje",
 
 	getintouch: "Bądź w kontakcie",
 	getintouchH1: "Wyślij wiadomość",
@@ -232,7 +236,7 @@ var languageMap = {
 
     cookieDeclaration: "Kontynuując korzystanie z witryny bez blokowania plików cookie w ustawieniach przeglądarki, użytkownik wyraża zgodę na umieszczenie wyżej wymienionych plików cookie.",
     cookieDeclarationTitle: "Deklaracja Cookies",
-    cookieDeclarationShort: "Kontynuując korzystanie z witryny bez blokowania plików cookie w ustawieniach przeglądarki, użytkownik wyraża zgodę na umieszczenie wyżej wymienionych plików cookie.",
+    cookieDeclarationShort: "Korzystając z witryny bez blokowania plików cookie, użytkownik wyraża zgodę na wykorzystywanie ich przez naszą witrynę.",
   },
   FR: {
     welcome: "Bienvenue",
