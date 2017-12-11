@@ -77,14 +77,14 @@ var languageMap = {
 	getintouchH1S4: "Company",
 	getintouchH1S5: "Message",
 
-	agree: "Agree", //NEW DE
+	agree: "Agree",
 	send: "Send",
 	close: "Close",
     pricing: "Check pricing",
 	learnmore: "Learn More",
 	language: "Language",
     toast: "Language changed",
-    postajax: "Thank you!<br>We will review your request as soon as possible.", //NEW
+    postajax: "Thank you!<br>We will review your request as soon as possible.",
 
     cookieDeclaration: "By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed. By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed.",
     cookieDeclarationTitle: "Cookies Declaration",
@@ -151,13 +151,15 @@ var languageMap = {
 	getintouchH1S3: "Telefon",
 	getintouchH1S4: "Unternehmen",
 	getintouchH1S5: "Nachricht",
-
+	
+	agree: "Akzeptieren",
 	send: "Senden",
 	close: "Schließen",
 	pricing: "Check pricing",
 	learnmore: "Erfahren Sie mehr",
 	language: "Sprache",
     toast: "Sprache geändert",
+	postajax: "Danke! <br> Wir werden Ihre Anfrage so schnell wie möglich überprüfen.",
 
     cookieDeclaration: "By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed. By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed.",
     cookieDeclarationTitle: "Cookies Declaration",
@@ -233,6 +235,7 @@ var languageMap = {
 	language: "Język",
 
     toast: "Język został zmieniony",
+	postajax: "Dziękujemy!<br>Odpowiemy na Twoją wiadomość jak najszybciej!",
 
     cookieDeclaration: "Kontynuując korzystanie z witryny bez blokowania plików cookie w ustawieniach przeglądarki, użytkownik wyraża zgodę na umieszczenie wyżej wymienionych plików cookie.",
     cookieDeclarationTitle: "Deklaracja Cookies",
