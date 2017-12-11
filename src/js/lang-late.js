@@ -27,7 +27,9 @@ var languageMap = {
 	slogan4: "We got the right skills you require to deliver the goods.",
 	slogan5: "We love your projects same as we love our own.",
 
+	/* ourservices.header text */
 	ourservices: "Our Services",
+	/* ourservices.slogan text */
 	ourservicesH1: "Need a professional website?",
 	ourservicesH2: "Need someone to take care of your website?",
 	ourservicesH3: "Got any questions?",
@@ -39,12 +41,14 @@ var languageMap = {
     ourservicesS4: "We will install and configure your CMS system.",
 	ourservicesS5: "We will host your website.",
 
+	/* benefit.header text */
 	benefits: "Benefits",
 	benefitsH1: "Development",
 	benefitsH2: "Servicing",
 	benefitsH3: "Consulting",
     benefitsH4: "CMS Setup",
 	benefitsH5: "WebHosting",
+	/* benefit.slogan text */
 	benefitsH1S1: "Optimized and responsive software",
 	benefitsH1S2: "Modern look based on Material Design principles",
 	benefitsH1S3: "Uniquely created for customer specifications",
@@ -56,6 +60,12 @@ var languageMap = {
     benefitsH4S2: "Wordpress, PrestaShop and many more included",
     benefitsH5S1: "24/7 uptime of your website",
 	benefitsH5S2: "Super hosting",
+	/* benefit.cost text */
+	benefitsH1C1: "from 750€",
+	benefitsH2C1: "from 750€",
+	benefitsH3C1: "from 750€",
+	benefitsH4C1: "from 750€",
+	benefitsH5C1: "from 750€",
 
     benefitsH1Text: "Some text here...",
     benefitsH2Text: "Some text here...",
@@ -67,10 +77,12 @@ var languageMap = {
 
     ourprojects: "Our Projects",
 
+    /* ourservices.header text */
 	getintouch: "Get in Touch",
 	getintouchH1: "Send Message",
 	getintouchH2: "Contact",
 	getintouchH3: "Social Media",
+	/* ourservices.slogan text */
 	getintouchH1S1: "Your Name",
 	getintouchH1S2: "Email Address",
 	getintouchH1S3: "Phone",
@@ -88,7 +100,7 @@ var languageMap = {
 
     cookieDeclaration: "By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed. By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed.",
     cookieDeclarationTitle: "Cookies Declaration",
-    cookieDeclarationShort: "By continuing to use the Website without blocking cookies in the browser settings, the user agrees that the above mentioned cookies will be placed.",
+    cookieDeclarationShort: "By continuing to use the Website without blocking cookies, you consent to our use of our site.",
   },
   DE: {
   	welcome: "willkommen",
