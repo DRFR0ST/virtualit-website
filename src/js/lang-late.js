@@ -62,11 +62,11 @@ var languageMap = {
 	benefitsH5S2: "Super hosting",
 	/* benefit.cost text */
 	benefitsH1C1: "from 750€",
-	benefitsH2C1: "from 750€",
-	benefitsH3C1: "from 750€",
-	benefitsH4C1: "from 750€",
-	benefitsH5C1: "from 750€",
-
+	benefitsH2C1: "from 15€/hour",
+	benefitsH3C1: "from 2€/minute",
+	benefitsH4C1: "from 50€",
+	benefitsH5C1: "from 10€/month",
+	/* benefit.long text */
     benefitsH1Text: "Some text here...",
     benefitsH2Text: "Some text here...",
     benefitsH3Text: "Some text here...",
