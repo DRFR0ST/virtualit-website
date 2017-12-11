@@ -34,7 +34,7 @@
 <body class="grey lighten-5">
     <div class="cookiebox">
         <div class="cookiebox-content">
-            <p><span class="lang-late" data-lang-key="cookieDeclarationShort"></span><br><a class="btn blue-grey darken-2 lang-late" onclick="$('.cookiebox').css('top', '-505px')" data-lang-key="agree">Agree</a></p>
+            <p><span class="lang-late" data-lang-key="cookieDeclarationShort"></span><br><a class="btn blue-grey darken-2 lang-late" onclick="$('.cookiebox').css('top', '-505px')" id="cookiebox-agree" data-lang-key="agree">Agree</a></p>
         </div>
     </div> 
 
@@ -720,7 +720,6 @@
         .cookiebox {
             width: 100%;
             border-radius: 0px;
-            top: 0px !important;
             transition: all 0.6s ease;
         }
     }
@@ -1189,7 +1188,7 @@
                     $('body').css("overflow", "initial");
                     /*if ($('#cookiebtn').hasClass("scale-out") == false) $('.tap-target').tapTarget('open');*/
 
-                    var interv3 = setInterval(function() { if(firstVisit == "true" || firstVisit == null || firstVisit == "") { $('.cookiebox').css("top", "15px"); } clearInterval(interv3); }, 300);
+                    var interv3 = setInterval(function() { if(firstVisit == "true" || firstVisit == null || firstVisit == "") { if($(window).width() <= 745) $('.cookiebox').css("top", "15px"); else { $('.cookiebox').css("top", "0px"); } } clearInterval(interv3); }, 300);
                     clearInterval(interv2);
                 }, 1000);
             });
@@ -1198,8 +1197,9 @@
         }, loadingScreenInterval);
     });
 
-    $('.cookiebox .btn').click(function() {
+    $('#cookiebox-agree').click(function() {
         setCookie("firstVisit", "false", 365);
+        $('.cookiebox').css('top', '-505px');
     });
 
     // LOGO SLIDER
