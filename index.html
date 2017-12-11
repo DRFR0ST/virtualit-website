@@ -34,7 +34,7 @@
 <body class="grey lighten-5">
     <div class="cookiebox">
         <div class="cookiebox-content">
-            <p><span class="lang-late" data-lang-key="cookieDeclarationShort"></span><br><a class="btn blue-grey darken-2 lang-late" onclick="$('.cookiebox').css('top', '-105px')" data-lang-key="agree">Agree</a></p>
+            <p><span class="lang-late" data-lang-key="cookieDeclarationShort"></span><br><a class="btn blue-grey darken-2 lang-late" onclick="$('.cookiebox').css('top', '-505px')" data-lang-key="agree">Agree</a></p>
         </div>
     </div> 
 
@@ -698,13 +698,15 @@
 
     .cookiebox {
         min-width: 40%;
-        height: 64px;
+        height: auto;
+        min-height: 64px;
+        max-height: 136px;
         line-height: 36px;
         position: fixed;
         border-radius: 2px;
         padding-left: 15px;
         padding-right: 15px;
-        top: -105px;
+        top: -205px;
         left: 50%;
         transform: translateX(-50%);
         background-color: rgba(255, 255, 255, 1);
@@ -714,6 +716,15 @@
         transition: all 0.6s ease;
     }
 
+    @media (max-width: 745px) {
+        .cookiebox {
+            width: 100%;
+            border-radius: 0px;
+            top: 0px !important;
+            transition: all 0.6s ease;
+        }
+    }
+
     .cookiebox .cookiebox-content {
         text-align: center;
         vertical-align: center;
@@ -721,7 +732,10 @@
     }
 
     .cookiebox .cookiebox-content .btn {
-        
+        position:fixed; 
+        top: 90%; 
+        left: 50%; 
+        transform: translateX(-50%);
     }
     /* Logo Slider */
 
