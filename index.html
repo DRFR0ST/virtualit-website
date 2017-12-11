@@ -32,6 +32,12 @@
 </head>
 
 <body class="grey lighten-5">
+    <div class="cookiebox">
+        <div class="cookiebox-content">
+            <p><span class="lang-late" data-lang-key="cookieDeclarationShort"></span><br><a class="btn blue-grey darken-2 lang-late" onclick="$('.cookiebox').css('top', '-105px')" data-lang-key="agree">Agree</a></p>
+        </div>
+    </div> 
+
     <div class="loading-screen">
         <!-- <img src="src/img/loading_logo.svg" class="responsive-img"> -->
         <div class="inner-circles-loader" id="loading-spinner"></div>
@@ -463,8 +469,9 @@
     </div>
     <p class="alpha-3 center blue-grey-text text-darken-3"><b>It's here, where the magic happens.</b></p>
     <hr class="alpha-3" style="width: 95%">
-    <div class="center">
-        <p class="alpha-1">Copyright © 2017, VirtualIT</p>
+    <div class="container">
+        <p class="alpha-1 left">Copyright © 2017, VirtualIT</p>
+        <a href="https://github.com/DrFR0ST/virtualit-website"><p class="alpha-1 right">Find this project on Github</p></a>
     </div>
     <!-- Scrollspy -->
     <!--     <div class="section" id="scrollspy-section">
@@ -528,10 +535,10 @@
             <p><a href='#!'>Impressum</a> - <a href='#!'>Contact</a> - <a href='#!'>Cookies</a></p>
         </div>
     </ul>
-    <div class="fixed-action-btn">
+<!--     <div class="fixed-action-btn">
         <a class="btn-floating btn-large blue-grey darken-2 waves-effect waves-light modal-trigger" href="#cookiemodal" id="cookiebtn">
       <i class="large material-icons">feedback</i>
-    </a>
+    </a> -->
     </div>
     <div class="tap-target blue-grey darken-1 white-text" data-activates="cookiebtn">
         <div class="tap-target-content">
@@ -690,15 +697,21 @@
     /* Cookie Declaration */
 
     .cookiebox {
-        width: 100%;
+        min-width: 40%;
         height: 64px;
         line-height: 36px;
         position: fixed;
-        bottom: 0px;
-        background-color: rgba(66, 66, 66, 0.85);
-        box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.12), 0 -1px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+        top: -105px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
         z-index: 15;
+        transition: all 0.6s ease;
     }
 
     .cookiebox .cookiebox-content {
@@ -708,7 +721,7 @@
     }
 
     .cookiebox .cookiebox-content .btn {
-        right: 15px;
+        
     }
     /* Logo Slider */
 
@@ -1106,7 +1119,6 @@
 
     var firstVisit = getCookie("firstVisit");
     if (firstVisit == "true" || firstVisit == null || firstVisit == "") {
-        setCookie("firstVisit", "false", 365);
         loadingScreenInterval = 4500;
         var interv = setInterval(function() {
             $('.loading-screen #loading-spinner').fadeIn(function() {
@@ -1148,6 +1160,7 @@
     var sloganDiceInterval = null;
     //ONLOAD
     $(document).ready(function() {
+
         diceSlogan();
         //changeLogoSlide(1);
         sloganDiceInterval = setInterval(function() {
@@ -1160,14 +1173,19 @@
                 var interv2 = setInterval(function() {
                     $('.loading-screen').fadeOut(function() { $('.loading-screen').remove(); });
                     $('body').css("overflow", "initial");
-                    if ($('#cookiebtn').hasClass("scale-out") == false) $('.tap-target').tapTarget('open');
+                    /*if ($('#cookiebtn').hasClass("scale-out") == false) $('.tap-target').tapTarget('open');*/
 
+                    var interv3 = setInterval(function() { if(firstVisit == "true" || firstVisit == null || firstVisit == "") { $('.cookiebox').css("top", "15px"); } clearInterval(interv3); }, 300);
                     clearInterval(interv2);
                 }, 1000);
             });
 
             clearInterval(interv);
         }, loadingScreenInterval);
+    });
+
+    $('.cookiebox .btn').click(function() {
+        setCookie("firstVisit", "false", 365);
     });
 
     // LOGO SLIDER

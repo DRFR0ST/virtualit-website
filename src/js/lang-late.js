@@ -77,6 +77,7 @@ var languageMap = {
 	getintouchH1S4: "Company",
 	getintouchH1S5: "Message",
 
+	agree: "Agree", //NEW DE
 	send: "Send",
 	close: "Close",
     pricing: "Check pricing",
@@ -220,6 +221,7 @@ var languageMap = {
 	getintouchH1S4: "Firma",
 	getintouchH1S5: "Wiadomość",
 
+	agree: "Zgadzam się",
 	send: "Wyślij",
 	close: "Zamknij",
 	pricing: "Check pricing",
