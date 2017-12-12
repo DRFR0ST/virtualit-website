@@ -46,7 +46,7 @@ var languageMap = {
 	ourservicesS5: "We will host your website.",
 
 	/* benefit.header text */
-	benefits: "Proposed packages", //NEW INPUT
+	benefits: "Proposed packages", //NEW VALUE
 
 	minipack: "Mini Pack", //NEW
 	optimalpack: "Optimal Pack", //NEW
@@ -75,9 +75,9 @@ var languageMap = {
 
     otherservices: "Other Services", //NEW
 
-    otherservicesH1: "Domain", //NEW
-    otherservicesH2: "Domain", //NEW
-    otherservicesH3: "Domain", //NEW
+    otherservicesH1: "WWW Hosting", //NEW
+    otherservicesH2: "Domain Setup", //NEW
+    otherservicesH3: "Consulting", //NEW
     otherservicesH1S1: "We can set up your Domain from top to bottom.", //NEW
     otherservicesH2S1: "We can set up your Domain from top to bottom.", //NEW
     otherservicesH3S1: "We can set up your Domain from top to bottom.", //NEW

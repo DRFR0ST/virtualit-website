@@ -84,21 +84,21 @@
             <div id="optionbox-section" class="z-depth-1">
                 <div class="row">
                     <div class="optionbox">
-                        <div class="col s4 grey darken-1">
+                        <div class="col s4" style="background-color: #243444;">
                             <div class="container" style="text-align: center;">
                                 <p><i class="material-icons medium">code</i></p>
                                 <h5 class="light lang-late" data-lang-key="optionbox_text01">Its some not so long text to show you our products at first sight.</h5>
                                 <br>
                             </div>
                         </div>
-                        <div class="col s4 grey darken-2">
+                        <div class="col s4" style="background-color: #243444;">
                             <div class="container" style="text-align: center;">
                                 <p><i class="material-icons medium">language</i></p>
                                 <h5 class="light lang-late" data-lang-key="optionbox_text02">Its some not so long text to show you our products at first sight.</h5>
                                 <br>
                             </div>
                         </div>
-                        <div class="col s4 grey darken-3">
+                        <div class="col s4" style="background-color: #243444;">
                             <div class="container" style="text-align: center;">
                                 <p><i class="material-icons medium">cloud</i></p>
                                 <h5 class="light lang-late" data-lang-key="optionbox_text03">Its some not so long text to show you our products at first sight.</h5>
@@ -453,7 +453,7 @@
                             <hr class="alpha-3" style="width: 45%;">
                             <br>
                         </div>
-                        <div class="card-tabs">
+                        <div class="card-tabs" id="intouch_tabs">
                             <ul class="tabs tabs-fixed-width">
                                 <li class="tab"><a href="#sendmsg_card" class="active lang-late" data-lang-key="getintouchH1">Send Message</a></li>
                                 <li class="tab"><a href="#contact_card" class="lang-late" data-lang-key="getintouchH2">Contact</a></li>
@@ -565,7 +565,7 @@
         </div>
     </div>
     <p class="alpha-3 center blue-grey-text text-darken-3"><b>It's here, where the magic happens.</b></p>
-    <a href="#!" class="btn btn-large btn-floating blue lighten-2 hide-on-med-and-down" style="bottom: -26px; left: 87vw;"><i class="material-icons">keyboard_arrow_up</i></a>
+ <!--    <a href="#!" class="btn btn-large btn-floating blue lighten-2 hide-on-med-and-down" style="bottom: -26px; left: 87vw;"><i class="material-icons">keyboard_arrow_up</i></a> -->
     <hr class="alpha-3" style="width: 95%">
     <div class="container">
         <p class="alpha-1 left">Copyright © 2017, VirtualIT</p>
@@ -1310,6 +1310,10 @@
         $('#cookiebtn').remove();
     });
 
+    $('#intouch_tabs').click(function() {
+        $('#twitterbox').css("height", $('#intouchbox').height());
+    });
+
     $('.preview-box').mouseenter(function() {
       var id = "#" + this.id;
       var scrollTo = $(id + ' img').height() - $(id).height();
@@ -1326,7 +1330,6 @@
     var sloganDiceInterval = null;
     //ONLOAD
     $(document).ready(function() {
-        $('#twitterbox').css("height", $('#intouchbox').height());
 
         var scrollTop = $(window).scrollTop();
         if(scrollTop > $('#headsection').height() + ($('#optionbox-section').height()-20)) {
@@ -1356,6 +1359,11 @@
 
             clearInterval(interv);
         }, loadingScreenInterval);
+        $('#twitterbox').css("height", $('#intouchbox').height());
+    });
+
+    $(window).resize(function() {
+        $('#twitterbox').css("height", $('#intouchbox').height());
     });
 
     $(window).scroll(function() {
