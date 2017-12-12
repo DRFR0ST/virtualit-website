@@ -293,6 +293,7 @@ function changeLanguage(language) {
     });
 
     clearInterval(sloganDiceInterval);
+    diceSlogan();
     sloganDiceInterval = setInterval(function() {
             diceSlogan();
     }, 8000);
