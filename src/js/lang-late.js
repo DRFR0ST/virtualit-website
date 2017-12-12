@@ -27,6 +27,10 @@ var languageMap = {
 	slogan4: "We got the right skills you require to deliver the goods.",
 	slogan5: "We love your projects same as we love our own.",
 
+	optionbox_text01: "Its some not so long text to show you our products at first sight.",
+	optionbox_text02: "Its some not so long text to show you our products at first sight.",
+	optionbox_text03: "Its some not so long text to show you our products at first sight.",
+
 	/* ourservices.header text */
 	ourservices: "Our Services",
 	/* ourservices.slogan text */
@@ -42,24 +46,47 @@ var languageMap = {
 	ourservicesS5: "We will host your website.",
 
 	/* benefit.header text */
-	benefits: "Benefits",
+/*	benefits: "Benefits",
 	benefitsH1: "Development",
 	benefitsH2: "Servicing",
 	benefitsH3: "Consulting",
     benefitsH4: "CMS Setup",
-	benefitsH5: "WebHosting",
+	benefitsH5: "WebHosting",*/
+	benefits: "Proposed packages",
+
+	minipack: "Mini Pack",
+	optimalpack: "Optimal Pack",
+	premiumpack: "Premium Pack",
+	cmsservice: "CMS Services",
+
+	pack_desc1: "The cheapest plan",
+	pack_desc2: "The optimal plan",
+	pack_desc3: "The most advantageous plan",
+	pack_desc4: "Services for already existing CMS",
+
 	/* benefit.slogan text */
-	benefitsH1S1: "Optimized and responsive software",
+	indiweb: "Individual website",
+	onepager: "One-pager website",
+	wwwhosting: "WWW Hosting",
+	ftphosting: "FTP Web Space",
+	servicing: "Servicing",
+	consulting: "Consulting",
+	cmsinstall: "CMS Installation",
+	cmsplugin: "CMS Plugin Development",
+	comstheme: "CMS Theme Development",
+
+
+/*	benefitsH1S1: "Optimized and responsive software",
 	benefitsH1S2: "Modern look based on Material Design principles",
 	benefitsH1S3: "Uniquely created for customer specifications",
 	benefitsH2S1: "Infrastructure under 24/7 observation",
 	benefitsH2S2: "Solving all issues",
+	benefitsH2S3: "Solving all issues",
+	benefitsH2S4: "Solving all issues",
 	benefitsH3S1: "Professional IT support",
 	benefitsH3S2: "Support in English, German and Polish language",
 	benefitsH4S1: "Installation of Blog, Shop or other CMS system",
-    benefitsH4S2: "Wordpress, PrestaShop and many more included",
-    benefitsH5S1: "24/7 uptime of your website",
-	benefitsH5S2: "Super hosting",
+    benefitsH4S2: "Wordpress, PrestaShop and many more included",*/
 	/* benefit.cost text */
 	benefitsH1C1: "from 750€",
 	benefitsH2C1: "from 15€/hour",

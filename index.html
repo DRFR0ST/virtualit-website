@@ -34,7 +34,7 @@
 <body class="grey lighten-5">
     <div class="cookiebox">
         <div class="cookiebox-content">
-            <p><span class="lang-late" data-lang-key="cookieDeclarationShort"></span><br><a class="btn blue-grey darken-2 lang-late" onclick="$('.cookiebox').css('top', '-505px')" id="cookiebox-agree" data-lang-key="agree">Agree</a></p>
+            <p><span class="lang-late" data-lang-key="cookieDeclarationShort"></span><br><a class="btn blue lang-late" onclick="$('.cookiebox').css('top', '-505px')" id="cookiebox-agree" data-lang-key="agree">Agree</a></p>
         </div>
     </div> 
 
@@ -47,7 +47,14 @@
     </div>
     <div class="section x-top scrollspy" id="head-section">
         <div class="parallax-container">
-            <div class="parallax"><img src="" style="position: absolute;"></div>
+            <!-- <div class="parallax"><img src="" style="position: absolute;"></div> -->
+            <!-- <div class="parallax"><canvas id="backgroundboard" style="width: 100vw; height: 100vh; background-color: #212121; position: absolute;"></canvas></div> -->
+                  <div style="width:100vw; height: 100vh; position:absolute; background: rgba(255, 255, 255, 0);"></div>
+                  <div class="parallax" style="">
+                      <video class="alpha-2" muted="true" autoplay="true" loop="true" style="width: 100vw; height: auto;">
+                        <source src="src/vid/674118136.mp4" type="video/mp4" >
+                      </video>
+                  <!-- <iframe style="width: 120vw; height: 120vh; position: absolute; margin-top: -10vh; margin-left: -10vw;" src="https://www.youtube.com/embed/rrT6v5sOwJg?rel=0&amp;loop=1&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;mute=1&amp;cc_load_policy=3&amp;iv_load_policy=3" frameborder="0" gesture="media" allow="encrypted-media"></iframe> --></div>
             <div class="parallax-head">
                 <nav class="z-depth-0">
                     <a href="#" data-activates="slide-out" class="button-collapse show-on-large right "><i class="material-icons" style="font-size: 3rem;">menu</i></a>
@@ -58,16 +65,43 @@
                     <h2 style="opacity: 1; font-size: 6.5rem;"><span style="font-family: prime-light;">virtual</span><span style="font-family: prime-regular;">it</span></h2>
                     <hr class="alpha-3" style="width: 15%">
                     <h4 class="light alpha-1 lang-late" data-lang-key="description">We will take care of your IT infrastructure</h4>
-                    <p class="light alpha-2"><span id="low_slogan"></span>
+                    <div style="height: 30px;"><p class="light alpha-2"><span id="low_slogan"></span>
                         <br>
-                    </p>
+                    </p></div>
                     <br>
                     <a href="#services-section" class="btn btn-rounded blue-grey darken-2 lang-late" data-lang-key="explore">Explore</a>
                 </div>
             </div>
         </div>
+        <div style="height:256px">
+            <div id="optionbox-section">
+                <div class="row">
+                    <div class="optionbox">
+                        <div class="col s4 blue darken-2">
+                            <div class="container" style="text-align: center;">
+                                <p><i class="material-icons medium">code</i></p>
+                                <h5 class="light lang-late" data-lang-key="optionbox_text01">Its some not so long text to show you our products at first sight.</h5>
+                            </div>
+                        </div>
+                        <div class="col s4 red darken-2">
+                            <div class="container" style="text-align: center;">
+                                <p><i class="material-icons medium">language</i></p>
+                                <h5 class="light lang-late" data-lang-key="optionbox_text02">Its some not so long text to show you our products at first sight.</h5>
+                            </div>
+                        </div>
+                        <div class="col s4 amber darken-2">
+                            <div class="container" style="text-align: center;">
+                                <p><i class="material-icons medium">cloud</i></p>
+                                <h5 class="light lang-late" data-lang-key="optionbox_text03">Its some not so long text to show you our products at first sight.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="section scrollspy" id="services-section" style="padding-top: 5%; padding-bottom: 2.5%;">
+
+    <div class="section scrollspy" id="services-section" style="padding-top: 2.5%; padding-bottom: 2.5%;">
         <div class="container">
             <h3 class="center alpha-1 lang-late" data-lang-key="ourservices">Our Services</h3>
             <hr class="alpha-3" style="width: 45%;">
@@ -111,7 +145,7 @@
                                             <p class="alpha-1 light lang-late" data-lang-key="ourservicesS3">We can answer your questions and help you reach your goals from bottom to top.</p>
                                         </div>
                                     </div>
-                                    <div class="col s2 offset-s1" style="padding-top: 3.5%; padding-bottom: 3.5%;"><a class="btn btn-floating btn-large scale-transition scale-out" id="services-section-fab03"><i class="material-icons large amber darken-1">info</i></a>
+                                    <div class="col s2 offset-s1" style="padding-top: 3.5%; padding-bottom: 3.5%;"><a class="btn btn-floating btn-large scale-transition scale-out" id="services-section-fab03"><i class="material-icons large purple lighten-2">info</i></a>
                                         
                                     </div>
                                 </div>
@@ -125,7 +159,7 @@
                                             <p class="alpha-1 light lang-late" data-lang-key="ourservicesS5">We will host your website.</p>
                                         </div>
                                     </div>
-                                    <div class="col s2 offset-s1" style="padding-top: 3.5%; padding-bottom: 3.5%;"><a class="btn btn-floating btn-large scale-transition scale-out" id="services-section-fab05"><i class="material-icons large purple lighten-2">cloud</i></a>
+                                    <div class="col s2 offset-s1" style="padding-top: 3.5%; padding-bottom: 3.5%;"><a class="btn btn-floating btn-large scale-transition scale-out" id="services-section-fab05"><i class="material-icons large amber darken-1">cloud</i></a>
                                         
                                     </div>
                                 </div>
@@ -151,7 +185,6 @@
     </div>
     <div class="section scrollspy" id="benefits-section" style="padding-top: 2.5%; padding-bottom: 2.5%;">
         <div class="popup-container">
-            <br>
             <div class="section" style="padding-right: 5%; padding-left: 5%;">
                 <div class="container"> 
                     <h3 class="center alpha-1 lang-late" data-lang-key="benefits">Benefits</h3>
@@ -159,122 +192,105 @@
                 </div>
                 <br>
                 <br>
-                <div class="row center valign-wrapper">
-                    <div class="col s12 m6 l3">
-                        <div class="card center" style="min-height: 435px;">
-                            <div class="card-content center-align center" style="text-align:center;">
-                                <p class="center"><i class="material-icons">code</i></p>
-                                <h4 class="flow-text bold lang-late" data-lang-key="benefitsH1">Development</h4>
-                                <hr class="alpha-4">
-                                <br>
-                                <center>
-                                    <div class="valign-wrapper" style="height:250px;">
-                                        <div class="center" style="width: 95%;">
-                                            <p><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH1S1">Optimized and responsive software</span>
-                                                <br><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH1S2">Modern look based on Material Design principles</span>
-                                                <br><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH1S3">Uniqually created for customer specifications</span></p>
-                                        </div>
-                                    </div>
-                                    <b><p class="lang-late" data-lang-key="benefitsH1C1"></p></b>
-                                </center>
+
+                <div class="row">
+                    <div class="col s12 m6 l3"><br>
+                        <div class="offer-card grey lighten-5 z-depth-1">
+                            <div class="offer-header">
+                                <div style="padding: 25px;">
+                                    <h4 class="lang-late" data-lang-key="minipack">Mini Pack</h4>
+                                    <p class="alpha-1 lang-late" data-lang-key="pack_desc1">The cheapest plan</p>
+                                </div>
+                            </div>
+                            <div class="offer-image">
+                                <img src="https://source.unsplash.com/-7_yLivAnMc/800x600" class="responsive-img">
+                            </div>
+                             <ul class="collection">
+                              <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="wwwhosting"> WWW Hosting</span></li>
+                              <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="ftphosting"> FTP Web Space</span></li>
+                              <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="consulting"> Consulting</span></li>
+                            </ul>
+                            <div class="offer-button">
+                                <a href="#!" class="btn btn-large blue-grey darken-2">Get pack</a>
                             </div>
                         </div>
-                        <a href="#modal_dev" class="btn btn-large btn-rounded btn-outlined center lang-late modal-trigger" data-lang-key="learnmore">Learn More</a>
-                        <br class="show-on-medium">
-                        <br class="show-on-medium">
+                        <br>
                     </div>
-                    <div class="col s12 m6 l3">
-                        <div class="card center" style="min-height: 435px;">
-                            <div class="card-content center-align center" style="text-align:center;">
-                                <p class="center"><i class="material-icons">find_replace</i></p>
-                                <h4 class="flow-text bold lang-late" data-lang-key="benefitsH2">Servicing</h4>
-                                <hr class="alpha-4">
-                                <br>
-                                <center>
-                                    <div class="valign-wrapper" style="height:250px;">
-                                        <div class="center" style="width: 95%;">
-                                            <p><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH2S1">Infrastructure under 24/7 observation</span>
-                                                <br><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH2S2">Solving all issues</span></p>
-                                        </div>
-                                    </div>
-                                    <b><p class="lang-late" data-lang-key="benefitsH2C1"></p></b>
-                                </center>
+                    <div class="col s12 m6 l3"><br>
+                        <div class="offer-card grey lighten-5 z-depth-1">
+                            <div class="offer-header">
+                                <div style="padding: 25px;">
+                                    <h4 class="lang-late" data-lang-key="optimalpack">Optimal Pack</h4>
+                                    <p class="alpha-1 lang-late" data-lang-key="pack_desc2">The optimal plan</p>
+                                </div>
+                            </div>
+                            <div class="offer-image">
+                                <img src="https://source.unsplash.com/qk3x9BDXG4Y/800x600" class="responsive-img">
+                            </div>
+                             <ul class="collection">
+                              <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="onepager"> One-pager website</span></li>
+                              <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="wwwhosting"> WWW Hosting</span></li>
+                              <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="ftphosting"> FTP Web Space</span></li>
+                              <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="consulting"> Consulting</span></li>
+                            </ul>
+                            <div class="offer-button">
+                                <a href="#!" class="btn btn-large blue-grey darken-2">Get pack</a>
                             </div>
                         </div>
-                        <a href="#modal_serv" class="btn btn-large btn-rounded btn-outlined center lang-late modal-trigger" data-lang-key="learnmore">Learn More</a>
-                        <br class="show-on-medium">
-                        <br class="show-on-medium">
+                        <br>
                     </div>
-                    <div class="col s12 m6 l3">
-                        <div class="card center" style="min-height: 435px;">
-                            <div class="card-content center-align center" style="text-align:center;">
-                                <p class="center"><i class="material-icons">question_answer</i></p>
-                                <h4 class="flow-text bold lang-late" data-lang-key="benefitsH3">Consulting</h4>
-                                <hr class="alpha-4">
-                                <br>
-                                <center>
-                                    <div class="valign-wrapper" style="height:250px;">
-                                        <div class="center" style="width: 95%;">
-                                            <p><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH3S1">Professional IT support</span>
-                                                <br><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH3S2">Support in English, German and Polish language</span></p>
-                                        </div>
-                                    </div>
-                                    <b><p class="lang-late" data-lang-key="benefitsH3C1"></p></b>
-                                </center>
+                    <div class="col s12 m6 l3"><br>
+                        <div class="offer-card white z-depth-3">
+
+                            <div class="offer-header">
+                                <!-- <div style="width: 100%; height: 5px; border-top-left-radius:2px; border-top-right-radius: 2px; box-shadow: 0 3px 6px rgba(33, 150, 243,0.16), 0 3px 6px rgba(33, 150, 243,0.23);" class="blue"></div> -->
+                                <div style="padding: 25px;">
+                                    <h4 class="lang-late" data-lang-key="premiumpack">Premium pack</h4>
+                                    <p class="alpha-1 lang-late" data-lang-key="pack_desc3">The most advantageous plan</p>
+                                </div>
+                            </div>
+                            <div class="offer-image">
+                                <img src="https://source.unsplash.com/pmX9BkDDr_A/800x600" class="responsive-img">
+                            </div>
+                             <ul class="collection">
+                              <li class="collection-item white"><i class="material-icons blue-text">done</i> <span class="lang-late" data-lang-key="indiweb"> Individual website</span></li>
+                              <li class="collection-item white"><i class="material-icons blue-text">done</i> <span class="lang-late" data-lang-key="wwwhosting"> WWW Hosting</span></li>
+                              <li class="collection-item white"><i class="material-icons blue-text">done</i> <span class="lang-late" data-lang-key="ftphosting"> FTP Web Space</span></li>
+                              <li class="collection-item white"><i class="material-icons blue-text">done</i> <span class="lang-late" data-lang-key="servicing"> Servicing</span></li>
+                              <li class="collection-item white"><i class="material-icons blue-text">done</i> <span class="lang-late" data-lang-key="consulting"> Consulting</span></li>
+                            </ul>
+                            <div class="offer-button">
+                                <a href="#!" class="btn btn-large blue">Contact us</a>
                             </div>
                         </div>
-                        <a href="#modal_cons" class="btn btn-large btn-rounded btn-outlined center lang-late modal-trigger" data-lang-key="learnmore">Learn More</a>
-                        <br class="show-on-medium">
-                        <br class="show-on-medium">
+                        <br>
                     </div>
-                    <div class="col s12 m6 l3">
-                        <div class="card center" style="min-height: 435px;">
-                            <div class="card-content center-align center" style="text-align:center;">
-                                <p class="center"><i class="material-icons">public</i></p>
-                                <h4 class="flow-text bold lang-late" data-lang-key="benefitsH4">CMS Setup</h4>
-                                <hr class="alpha-4">
-                                <br>
-                                <center>
-                                    <div class="valign-wrapper" style="height:250px;">
-                                        <div class="center" style="width: 95%;">
-                                            <p><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH4S1">Installation of Blog, Shop or other CMS system</span>
-                                                <br><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH4S2">Wordpress, PrestaShop and many more included</span></p>
-                                        </div>
-                                    </div>
-                                    <b><p class="lang-late" data-lang-key="benefitsH4C1"></p></b>
-                                </center>
+                    <div class="col s12 m6 l3"><br>
+                        <div class="offer-card grey lighten-5 z-depth-1">
+                            <div class="offer-header">
+                                <div style="padding: 25px;">
+                                    <h4 class="lang-late" data-lang-key="cmsservice">CMS Service</h4>
+                                    <p class="alpha-1 lang-late" data-lang-key="pack_desc4">Services for already existing CMS</p>
+                                </div>
+                            </div>
+                            <div class="offer-image">
+                                <img src="https://source.unsplash.com/1AWGNukP5p8/800x600" class="responsive-img">
+                            </div>
+                             <div class="collection">
+                              <a class="collection-item grey lighten-5"><i class="material-icons green-text text-lighten-1">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="cmsinstall">CMS Installation</span></a>
+                              <a class="collection-item grey lighten-5"><i class="material-icons green-text text-lighten-1">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="cmsplugin">CMS Plugin Development</span></a>
+                              <a class="collection-item grey lighten-5"><i class="material-icons green-text text-lighten-1">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="comstheme">CMS Theme Development</span></a>
+                            </div>
+                            <div class="offer-button">
+                                <a href="#!" class="btn btn-large green lighten-1">Select wished service</a>
                             </div>
                         </div>
-                        <a href="#modal_cms" class="btn btn-large btn-rounded btn-outlined center lang-late modal-trigger" data-lang-key="learnmore">Learn More</a>
-                        <br class="show-on-medium">
-                        <br class="show-on-medium">
-                    </div>
-                    <div class="col s12 m6 l3 offset-m3">
-                        <div class="card center" style="min-height: 435px;">
-                            <div class="card-content center-align center" style="text-align:center;">
-                                <p class="center"><i class="material-icons">domain</i></p>
-                                <h4 class="flow-text bold lang-late" data-lang-key="benefitsH5">Web Hosting</h4>
-                                <hr class="alpha-4">
-                                <br>
-                                <center>
-                                    <div class="valign-wrapper" style="height:250px;">
-                                        <div class="center" style="width: 95%;">
-                                            <p><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH5S1">24/7 uptime of your website</span>
-                                                <br><i class="material-icons tiny">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="benefitsH5S2">Super hosting</span></p>
-                                        </div>
-                                    </div>
-                                    <b><p class="lang-late" data-lang-key="benefitsH5C1"></p></b>
-                                </center>
-                            </div>
-                        </div>
-                        <a href="#modal_cloud" class="btn btn-large btn-rounded btn-outlined center lang-late modal-trigger" data-lang-key="learnmore">Learn More</a>
-                        <br class="show-on-medium">
-                        <br class="show-on-medium">
+                        <br>
                     </div>
                 </div>
-                <!-- </div> -->
+
+
             </div>
-            <br>
         </div>
     </div>
     <div class="section scrollspy" id="clients-section" style="padding-top: 2.5%; padding-bottom: 2.5%;">
@@ -699,6 +715,21 @@
         -o-transition: all 0.15s ease-in;
         transition: all 0.15s ease-in;
     }
+    /* Option Box */
+    #optionbox-section {
+        position: fixed;
+        bottom: -20px;
+        width: 100%;
+    }
+
+    .optionbox {
+        color: #fff;
+    }
+
+    .optionbox .col {
+        padding: 15px;
+        max-height: 256px;
+    }
     /* Cookie Declaration */
 
     .cookiebox {
@@ -741,6 +772,32 @@
         left: 50%; 
         transform: translateX(-50%);
     }
+    /* Offer Card */
+    .offer-card {
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+    }
+    .offer-header {
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+    }
+    .offer-image {
+        width: 100%;
+        height: auto;
+    }
+    .offer-image img {
+        width: 100%;
+        height: auto;
+    }
+    .offer-button {
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
     /* Logo Slider */
 
     .logo-slider-wrapper {
@@ -895,6 +952,14 @@
         color: rgba(96, 125, 139, 0.7);
     }
 
+    .collection .collection-item.active {
+        background-color: #546E7A;
+        color: #fff;
+    }
+
+    .collection a.collection-item {
+        color: #546E7A;
+    }
 
     input:not([type]):focus:not([readonly]),
     input[type=text]:not(.browser-default):focus:not([readonly]),
@@ -1178,7 +1243,6 @@
     var sloganDiceInterval = null;
     //ONLOAD
     $(document).ready(function() {
-
         diceSlogan();
         //changeLogoSlide(1);
         sloganDiceInterval = setInterval(function() {
@@ -1193,13 +1257,22 @@
                     $('body').css("overflow", "initial");
                     /*if ($('#cookiebtn').hasClass("scale-out") == false) $('.tap-target').tapTarget('open');*/
 
-                    var interv3 = setInterval(function() { if(firstVisit == "true" || firstVisit == null || firstVisit == "") { if($(window).width() <= 745) $('.cookiebox').css("top", "0px"); else { $('.cookiebox').css("top", "15px"); } } clearInterval(interv3); }, 300);
+                    var interv3 = setInterval(function() { Materialize.toast("This website is still under development!", 5000); if(firstVisit == "true" || firstVisit == null || firstVisit == "") { if($(window).width() <= 745) $('.cookiebox').css("top", "0px"); else { $('.cookiebox').css("top", "15px"); } } clearInterval(interv3); }, 300);
                     clearInterval(interv2);
                 }, 1000);
             });
 
             clearInterval(interv);
         }, loadingScreenInterval);
+    });
+
+    $(window).scroll(function() {
+        var scrollTop = $(window).scrollTop();
+        if(scrollTop >= $('#headsection').height() + 190) {
+            $('#optionbox-section').css("position", "relative").css("bottom", "initial");
+        } else {
+            $('#optionbox-section').css("position", "fixed").css("bottom", "-20px");
+        }
     });
 
     $('#cookiebox-agree').click(function() {
@@ -1274,6 +1347,7 @@
 
         });
     }
+
     </script>
 </body>
 
