@@ -14,7 +14,7 @@ $(document).ready(function() {
 	);
 
 	var options = [
-		{selector: '#services-section', offset: 200, callback: function() {
+		{selector: '#services-section', offset: 250, callback: function() {
 		  $('#services-section-content').css("opacity", 1);
 		  $('#services-section .scale-transition').addClass("scale-in");
 		} },

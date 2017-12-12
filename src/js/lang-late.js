@@ -27,6 +27,10 @@ var languageMap = {
 	slogan4: "We got the right skills you require to deliver the goods.",
 	slogan5: "We love your projects same as we love our own.",
 
+	optionbox_text01: "Its some not so long text to show you our products at first sight.", //NEW
+	optionbox_text02: "Its some not so long text to show you our products at first sight.", //NEW
+	optionbox_text03: "Its some not so long text to show you our products at first sight.", //NEW
+
 	/* ourservices.header text */
 	ourservices: "Our Services",
 	/* ourservices.slogan text */
@@ -42,40 +46,41 @@ var languageMap = {
 	ourservicesS5: "We will host your website.",
 
 	/* benefit.header text */
-	benefits: "Benefits",
-	benefitsH1: "Development",
-	benefitsH2: "Servicing",
-	benefitsH3: "Consulting",
-    benefitsH4: "CMS Setup",
-	benefitsH5: "WebHosting",
-	/* benefit.slogan text */
-	benefitsH1S1: "Optimized and responsive software",
-	benefitsH1S2: "Modern look based on Material Design principles",
-	benefitsH1S3: "Uniquely created for customer specifications",
-	benefitsH2S1: "Infrastructure under 24/7 observation",
-	benefitsH2S2: "Solving all issues",
-	benefitsH3S1: "Professional IT support",
-	benefitsH3S2: "Support in English, German and Polish language",
-	benefitsH4S1: "Installation of Blog, Shop or other CMS system",
-    benefitsH4S2: "Wordpress, PrestaShop and many more included",
-    benefitsH5S1: "24/7 uptime of your website",
-	benefitsH5S2: "Super hosting",
-	/* benefit.cost text */
-	benefitsH1C1: "from 750€",
-	benefitsH2C1: "from 15€/hour",
-	benefitsH3C1: "from 2€/minute",
-	benefitsH4C1: "from 50€",
-	benefitsH5C1: "from 10€/month",
-	/* benefit.long text */
-    benefitsH1Text: "Some text here...",
-    benefitsH2Text: "Some text here...",
-    benefitsH3Text: "Some text here...",
-    benefitsH4Text: "Some text here...",
-    benefitsH5Text: "Some text here...",
+	benefits: "Proposed packages", //NEW INPUT
+
+	minipack: "Mini Pack", //NEW
+	optimalpack: "Optimal Pack", //NEW
+	premiumpack: "Premium Pack", //NEW
+	cmsservice: "CMS Services", //NEW
+
+	pack_desc1: "The cheapest plan", //NEW
+	pack_desc2: "The optimal plan", //NEW
+	pack_desc3: "The most advantageous plan", //NEW
+	pack_desc4: "Services for already existing CMS", //NEW
+
+	/* benefit.items text */
+	indiweb: "Individual website", //NEW
+	onepager: "One-pager website", //NEW
+	wwwhosting: "WWW Hosting", //NEW
+	ftphosting: "FTP Web Space", //NEW
+	servicing: "Servicing", //NEW
+	consulting: "Consulting", //NEW
+	cmsinstall: "CMS Installation", //NEW
+	cmsplugin: "CMS Plugin Development", //NEW
+	comstheme: "CMS Theme Development", //NEW
 
 	ourclients: "Our Clients",
 
     ourprojects: "Our Projects",
+
+    otherservices: "Other Services", //NEW
+
+    otherservicesH1: "Domain", //NEW
+    otherservicesH2: "Domain", //NEW
+    otherservicesH3: "Domain", //NEW
+    otherservicesH1S1: "We can set up your Domain from top to bottom.", //NEW
+    otherservicesH2S1: "We can set up your Domain from top to bottom.", //NEW
+    otherservicesH3S1: "We can set up your Domain from top to bottom.", //NEW
 
     /* ourservices.header text */
 	getintouch: "Get in Touch",
@@ -90,6 +95,7 @@ var languageMap = {
 	getintouchH1S5: "Message",
 
 	agree: "Agree",
+	order: "Order", //NEW
 	send: "Send",
 	close: "Close",
     pricing: "Check pricing",
@@ -277,14 +283,17 @@ function changeLanguage(language) {
     $('.lang-trigger').each(function(i) {
     	$(this).removeClass("disabled");
       	$(this).find(".material-icons").html("");
+      	$(this).css("font-weight", "normal");
 
       	if(this.dataset.language == language) {	    
       		$(this).addClass("disabled");
     		$(this).find(".material-icons").html("keyboard_arrow_right");
+    		$(this).css("font-weight", "bold");
     	}
     });
 
     clearInterval(sloganDiceInterval);
+    diceSlogan();
     sloganDiceInterval = setInterval(function() {
             diceSlogan();
     }, 8000);
