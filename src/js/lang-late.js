@@ -200,9 +200,9 @@ var languageMap = {
 	slogan4: "Mamy odpowiednie umiejętności, których potrzebujesz, aby dostarczyć towar wysokiej jakosci.",
 	slogan5: "Kochamy Twoje projekty tak samo, jak kochamy swoje wlasne.",
 	
-	optionbox_text01: "Profesjonalne strony internetowe",
-	optionbox_text02: "Szybki i niezawodny hosting",
-	optionbox_text03: "Wsparcie w wielu językach",
+	optionbox_text01: "Profesjonalne strony internetowe od małych witryn wizytówkowych po kompleksowe systemy.",
+	optionbox_text02: "Wszystkie nasze usługi są dostępne w języku polskim, angielskim oraz niemieckim.",
+	optionbox_text03: "Szybki i niezawodny hosting spełniający potrzeby nawet najbardziej wymagających klientów.",
 
 	ourservices: "Nasze usługi",
 	ourservicesH1: "Profesjonalne strony internetowe",
