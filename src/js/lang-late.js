@@ -87,6 +87,9 @@ var languageMap = {
     packcost3: "Individualy adjusted",
     packcost4: "Depends on service",
 
+    contactus: "Contact us", //NEW DE
+	getpack: "Get Pack", //NEW DE
+
     /* ourservices.header text */
 	getintouch: "Get in Touch",
 	getintouchH1: "Send Message",
@@ -220,7 +223,7 @@ var languageMap = {
 
 	minipack: "Pakiet Mini",
 	optimalpack: "Pakiet Optymalny",
-	premiumpack: "Pakiet Premium",
+	premiumpack: "Pakiet Rozszerzony",
 	cmsservice: "Usługi CMS",
 
 	pack_desc1: "Najtańszy plan",
@@ -255,6 +258,9 @@ var languageMap = {
 	benefitsH5: "Hosting WWW", 
 	benefitsH5S1: "Dostępność Twojej witryny 24/7",
 	benefitsH5S2: "Zabezpieczenie przed atakami typu DoS/DDoS",
+
+	contactus: "Skontaktuj sie z nami",
+	getpack: "Wybierz pakiet",
 
     benefitsH1Text: "Some text here...",
     benefitsH2Text: "Some text here...",
