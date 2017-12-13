@@ -200,9 +200,9 @@ var languageMap = {
 	slogan4: "Mamy odpowiednie umiejętności, których potrzebujesz, aby dostarczyć towar wysokiej jakosci.",
 	slogan5: "Kochamy Twoje projekty tak samo, jak kochamy swoje wlasne.",
 	
-	optionbox_text01: "To trochę nie tak długi tekst, aby pokazać nasze produkty od pierwszego wejrzenia.",
-	optionbox_text02: "To trochę nie tak długi tekst, aby pokazać nasze produkty od pierwszego wejrzenia.",
-	optionbox_text03: "To trochę nie tak długi tekst, aby pokazać nasze produkty od pierwszego wejrzenia.",
+	optionbox_text01: "Profesjonalne strony internetowe",
+	optionbox_text02: "Szybki i niezawodny hosting",
+	optionbox_text03: "Wsparcie w wielu językach",
 
 	ourservices: "Nasze usługi",
 	ourservicesH1: "Profesjonalne strony internetowe",
