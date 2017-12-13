@@ -27,9 +27,9 @@ var languageMap = {
 	slogan4: "We got the right skills you require to deliver the goods.",
 	slogan5: "We love your projects same as we love our own.",
 
-	optionbox_text01: "Its some not so long text to show you our products at first sight.", //NEW
-	optionbox_text02: "Its some not so long text to show you our products at first sight.", //NEW
-	optionbox_text03: "Its some not so long text to show you our products at first sight.", //NEW
+	optionbox_text01: "Its some not so long text to show you our products at first sight.", //NEW DE
+	optionbox_text02: "Its some not so long text to show you our products at first sight.", //NEW DE
+	optionbox_text03: "Its some not so long text to show you our products at first sight.", //NEW DE
 
 	/* ourservices.header text */
 	ourservices: "Our Services",
@@ -46,41 +46,41 @@ var languageMap = {
 	ourservicesS5: "We will host your website.",
 
 	/* benefit.header text */
-	benefits: "Proposed packages", //NEW VALUE
+	benefits: "Proposed packages", //NEW VALUE DE
 
-	minipack: "Mini Pack", //NEW
-	optimalpack: "Optimal Pack", //NEW
-	premiumpack: "Premium Pack", //NEW
-	cmsservice: "CMS Services", //NEW
+	minipack: "Mini Pack", //NEW DE
+	optimalpack: "Optimal Pack", //NEW DE
+	premiumpack: "Premium Pack", //NEW DE
+	cmsservice: "CMS Services", //NEW DE
 
-	pack_desc1: "The cheapest plan", //NEW
-	pack_desc2: "The optimal plan", //NEW
-	pack_desc3: "The most advantageous plan", //NEW
-	pack_desc4: "Services for already existing CMS", //NEW
+	pack_desc1: "The cheapest plan", //NEW DE
+	pack_desc2: "The optimal plan", //NEW DE
+	pack_desc3: "The most advantageous plan", //NEW DE
+	pack_desc4: "Services for already existing CMS", //NEW DE
 
 	/* benefit.items text */
-	indiweb: "Individual website", //NEW
-	onepager: "One-pager website", //NEW
-	wwwhosting: "WWW Hosting", //NEW
-	ftphosting: "FTP Web Space", //NEW
-	servicing: "Servicing", //NEW
-	consulting: "Consulting", //NEW
-	cmsinstall: "CMS Installation", //NEW
-	cmsplugin: "CMS Plugin Development", //NEW
-	comstheme: "CMS Theme Development", //NEW
+	indiweb: "Individual website", //NEW DE
+	onepager: "One-pager website", //NEW DE
+	wwwhosting: "WWW Hosting", //NEW DE
+	ftphosting: "FTP Web Space", //NEW DE
+	servicing: "Servicing", //NEW DE
+	consulting: "Consulting", //NEW DE
+	cmsinstall: "CMS Installation", //NEW DE
+	cmsplugin: "CMS Plugin Development", //NEW DE
+	comstheme: "CMS Theme Development", //NEW DE
 
 	ourclients: "Our Clients",
 
     ourprojects: "Our Projects",
 
-    otherservices: "Other Services", //NEW
+    otherservices: "Other Services", //NEW DE
 
-    otherservicesH1: "WWW Hosting", //NEW
-    otherservicesH2: "Domain Setup", //NEW
-    otherservicesH3: "Consulting", //NEW
-    otherservicesH1S1: "We can set up your Domain from top to bottom.", //NEW
-    otherservicesH2S1: "We can set up your Domain from top to bottom.", //NEW
-    otherservicesH3S1: "We can set up your Domain from top to bottom.", //NEW
+    otherservicesH1: "WWW Hosting", //NEW DE
+    otherservicesH2: "Domain Setup", //NEW DE
+    otherservicesH3: "Consulting", //NEW DE
+    otherservicesH1S1: "We can set up your Domain from top to bottom.", //NEW DE
+    otherservicesH2S1: "We can set up your Domain from top to bottom.", //NEW DE
+    otherservicesH3S1: "We can set up your Domain from top to bottom.", //NEW DE
 
     /* ourservices.header text */
 	getintouch: "Get in Touch",
@@ -95,7 +95,7 @@ var languageMap = {
 	getintouchH1S5: "Message",
 
 	agree: "Agree",
-	order: "Order", //NEW
+	order: "Order", //NEW DE
 	send: "Send",
 	close: "Close",
     pricing: "Check pricing",
@@ -194,8 +194,12 @@ var languageMap = {
 	slogan3: "Nasi inżynierowie są gotowi do tworzenia oprogramowania dla Ciebie.",
 	slogan4: "Mamy odpowiednie umiejętności, których potrzebujesz, aby dostarczyć towar wysokiej jakosci.",
 	slogan5: "Kochamy Twoje projekty tak samo, jak kochamy swoje wlasne.",
+	
+	optionbox_text01: "To trochę nie tak długi tekst, aby pokazać nasze produkty od pierwszego wejrzenia.",
+	optionbox_text02: "To trochę nie tak długi tekst, aby pokazać nasze produkty od pierwszego wejrzenia.",
+	optionbox_text03: "To trochę nie tak długi tekst, aby pokazać nasze produkty od pierwszego wejrzenia.",
 
-	ourservices: "Nasze Usługi",
+	ourservices: "Nasze usługi",
 	ourservicesH1: "Profesjonalne strony internetowe",
 	ourservicesH2: "Opieka nad Twoją witryną",
 	ourservicesH3: "Konsultacje",
@@ -207,7 +211,29 @@ var languageMap = {
 	ourservicesS4: "Zainstalujemy i skonfigurujemy Twój blog, sklep internetowy oraz inne skrypty oparte na silnikach CMS.",
 	ourservicesS5: "Oferujemy hosting Twojej witryny na naszym serwerze. Gwarantujemy wysoką dostępność usługi oraz stabilność jej działania.",
 
-	benefits: "Korzyści",
+	benefits: "Proponowane pakiety",
+
+	minipack: "Pakiet Mini",
+	optimalpack: "Pakiet Optymalny",
+	premiumpack: "Pakiet Premium",
+	cmsservice: "Usługi CMS",
+
+	pack_desc1: "Najtańszy plan",
+	pack_desc2: "Optymalny plan",
+	pack_desc3: "Najkorzystniejszy plan",
+	pack_desc4: "Usługi dla istniejących już witryn CMS",
+
+	/* benefit.items text */
+	indiweb: "Indywidualna witryna",
+	onepager: "Witryna One-Pager",
+	wwwhosting: "WWW Hosting",
+	ftphosting: "Serwer plików FTP",
+	servicing: "Serwisowanie",
+	consulting: "Konsultacje",
+	cmsinstall: "Instalacja CMS",
+	cmsplugin: "Rozwój wtyczki CMS",
+	comstheme: "Rozwój motywu CMS",
+	
 	benefitsH1: "Rozwój",
 	benefitsH2: "Serwisowanie",
 	benefitsH3: "Wsparcie",
@@ -234,6 +260,15 @@ var languageMap = {
 	ourclients: "Nasi klienci",
 	
 	ourprojects: "Nasze realizacje",
+	
+	otherservices: "Inne usługi",
+
+    otherservicesH1: "WWW Hosting",
+    otherservicesH2: "Konfiguracja domeny",
+    otherservicesH3: "Konsultacje",
+    otherservicesH1S1: "Przestrzeń sieciowa dla Twojej witryny.",
+    otherservicesH2S1: "Rejestracja i konfiguracja domeny od podstaw.",
+    otherservicesH3S1: "Szybka porada techniczna dla Twojej usługi.",
 
 	getintouch: "Bądź w kontakcie",
 	getintouchH1: "Wyślij wiadomość",
@@ -246,6 +281,7 @@ var languageMap = {
 	getintouchH1S5: "Wiadomość",
 
 	agree: "Zgadzam się",
+	order: "Zamów",
 	send: "Wyślij",
 	close: "Zamknij",
 	pricing: "Check pricing",
