@@ -3,6 +3,7 @@ Changelog
 
 ## Beta v1.0.2 (Pre-release)
 - New logo aboard!
+- Improved some visual elements
 
 ## Beta v1.0.1 (December 12th)
 - Implemented mail message system
