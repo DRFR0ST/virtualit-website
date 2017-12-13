@@ -67,7 +67,8 @@
             </div>
             <div class="parallax-content">
                 <div class="section center white-text">
-                    <h2 style="opacity: 1; font-size: 6.5rem;"><span style="font-family: prime-light;">virtual</span><span style="font-family: prime-regular;">it</span></h2>
+                    <img class="responsive-img" src="src/img/logo/newlogo_white.png" style="max-width: 20%"/>
+                    <h2 style="opacity: .95; font-size: 4.5rem;"><span style="font-family: prime-light;">virtual</span><span style="font-family: prime-regular;">it</span></h2>
                     <hr class="alpha-3" style="width: 15%">
                     <h4 class="light alpha-1 lang-late" data-lang-key="description">We will take care of your IT infrastructure</h4>
                     <div style="height: 30px;">
@@ -189,7 +190,7 @@
         </div>
     </div>
     <div class="section scrollspy" id="benefits-section" style="padding-top: 2.5%; padding-bottom: 2.5%;">
-        <div class="popup-container">
+        <div class="popup-container"><br>
             <div class="section" style="padding-right: 5%; padding-left: 5%;">
                 <div class="container">
                     <h3 class="center alpha-1 lang-late" data-lang-key="benefits">Benefits</h3>
@@ -216,6 +217,7 @@
                                 <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="consulting"> Consulting</span></li>
                             </ul>
                             <div class="offer-button">
+                                <b><p class="lang-late" data-lang-key="packcost1"></p></b>
                                 <a href="#!" class="btn btn-large blue-grey darken-2">Get pack</a>
                             </div>
                         </div>
@@ -240,6 +242,7 @@
                                 <li class="collection-item grey lighten-5"><i class="material-icons">done</i> <span class="lang-late" data-lang-key="consulting"> Consulting</span></li>
                             </ul>
                             <div class="offer-button">
+                                <b><p class="lang-late" data-lang-key="packcost2"></p></b>
                                 <a href="#!" class="btn btn-large blue-grey darken-2">Get pack</a>
                             </div>
                         </div>
@@ -266,6 +269,7 @@
                                 <li class="collection-item white"><i class="material-icons blue-text">done</i> <span class="lang-late" data-lang-key="consulting"> Consulting</span></li>
                             </ul>
                             <div class="offer-button">
+                                <b><p class="lang-late" data-lang-key="packcost3"></p></b>
                                 <a href="#!" class="btn btn-large blue">Contact us</a>
                             </div>
                         </div>
@@ -289,6 +293,7 @@
                                 <a class="collection-item grey lighten-5"><i class="material-icons green-text text-lighten-1">keyboard_arrow_right</i> <span class="lang-late" data-lang-key="comstheme">CMS Theme Development</span></a>
                             </div>
                             <div class="offer-button">
+                                <b><p class="lang-late" data-lang-key="packcost4"></p></b>
                                 <a href="#!" class="btn btn-large green lighten-1">Select wished service</a>
                             </div>
                         </div>
@@ -296,7 +301,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        <br></div>
     </div>
     <div class="section scrollspy" id="otherservices-section" style="padding-top: 2.5%; padding-bottom: 5%">
         <div class="container">
@@ -791,8 +796,7 @@
     /* Option Box */
 
     #optionbox-section {
-        position: fixed;
-        bottom: -20px;
+        position: relative;
         width: 100%;
     }
 
@@ -1332,12 +1336,12 @@
     //ONLOAD
     $(document).ready(function() {
 
-        var scrollTop = $(window).scrollTop();
+/*        var scrollTop = $(window).scrollTop();
         if (scrollTop > $('#headsection').height() + ($('#optionbox-section').height() - 20)) {
             $('#optionbox-section').css("position", "relative").css("bottom", "initial");
         } else if (scrollTop <= $('#headsection').height() + ($('#optionbox-section').height())) {
             $('#optionbox-section').css("position", "fixed").css("bottom", "-20px");
-        }
+        }*/
 
         diceSlogan();
         changeLogoSlide(1);
@@ -1368,12 +1372,12 @@
     });
 
     $(window).scroll(function() {
-        var scrollTop = $(window).scrollTop();
+/*        var scrollTop = $(window).scrollTop();
         if (scrollTop > $('#headsection').height() + ($('#optionbox-section').height() - 20)) {
             $('#optionbox-section').css("position", "relative").css("bottom", "initial");
         } else if (scrollTop <= $('#headsection').height() + ($('#optionbox-section').height())) {
             $('#optionbox-section').css("position", "fixed").css("bottom", "-20px");
-        }
+        }*/
     });
 
     $('#cookiebox-agree').click(function() {
@@ -1396,8 +1400,8 @@
 
     function changeLogoSlide(dir) {
         clearInterval(intervSlide);
-        $('.logo-slider img').fadeOut(function() {
-            $('.logo-slider .progress').fadeIn();
+        $('.logo-slider img').fadeOut("fast", function() {
+            /*$('.logo-slider .progress').fadeIn("");*/
 
             var logoIndexLimit = 3; //CHANGE IF ADDING!
 
@@ -1429,7 +1433,7 @@
 
             $('.logo-slider img').attr("src", setLogoURI);
             $('.logo-slider img').ready(function() {
-                $('.logo-slider .progress').fadeOut(function() {
+                $('.logo-slider .progress').fadeOut("fast", function() {
                     $('.logo-slider img').fadeIn();
                 });
             });

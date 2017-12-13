@@ -50,7 +50,7 @@ var languageMap = {
 
 	minipack: "Mini Pack", //NEW DE
 	optimalpack: "Optimal Pack", //NEW DE
-	premiumpack: "Premium Pack", //NEW DE
+	premiumpack: "Expanded Pack", //NEW DE
 	cmsservice: "CMS Services", //NEW DE
 
 	pack_desc1: "The cheapest plan", //NEW DE
@@ -59,15 +59,15 @@ var languageMap = {
 	pack_desc4: "Services for already existing CMS", //NEW DE
 
 	/* benefit.items text */
-	indiweb: "Individual website", //NEW DE
-	onepager: "One-pager website", //NEW DE
-	wwwhosting: "WWW Hosting", //NEW DE
-	ftphosting: "FTP Web Space", //NEW DE
+	indiweb: "Complex website handcrafted by us", //NEW DE
+	onepager: "Individualy adjusted one-pager website", //NEW DE
+	wwwhosting: "WWW hosting", //NEW DE
+	ftphosting: "FTP web space", //NEW DE
 	servicing: "Servicing", //NEW DE
 	consulting: "Consulting", //NEW DE
-	cmsinstall: "CMS Installation", //NEW DE
-	cmsplugin: "CMS Plugin Development", //NEW DE
-	comstheme: "CMS Theme Development", //NEW DE
+	cmsinstall: "CMS installation", //NEW DE
+	cmsplugin: "CMS plugin development", //NEW DE
+	comstheme: "CMS theme development", //NEW DE
 
 	ourclients: "Our Clients",
 
@@ -81,6 +81,11 @@ var languageMap = {
     otherservicesH1S1: "We can set up your Domain from top to bottom.", //NEW DE
     otherservicesH2S1: "We can set up your Domain from top to bottom.", //NEW DE
     otherservicesH3S1: "We can set up your Domain from top to bottom.", //NEW DE
+
+    packcost1: "15€/month",
+    packcost2: "from 450€",
+    packcost3: "Individualy adjusted",
+    packcost4: "Depends on service",
 
     /* ourservices.header text */
 	getintouch: "Get in Touch",

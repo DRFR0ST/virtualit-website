@@ -1,4 +1,4 @@
-<p align="center"><img src="http://virtualit.online/src/img/logo/newest_logo_dark.png" height="101" width="309"/>
+<p align="center"><img src="http://virtualit.online/src/img/logo/newlogo.png" height="270" width="480"/>
 <p align="center">Website made in 2017 for the VirtualIT Company</p></p>
 <hr>
 <br>

@@ -1,6 +1,9 @@
 Changelog
 =======
 
+## Beta v1.0.2 (Pre-release)
+- New logo aboard!
+
 ## Beta v1.0.1 (December 12th)
 - Implemented mail message system
 - Cookies system improved
