@@ -9,7 +9,7 @@
     <meta name="description" content="We'll develop and take care of your website, no matter if it's a shop, blog, homepage or just a onepager.">
     <meta property="og:title" content="VirtualIT - Homepage">
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://virtualit.online/" />
+    <meta property="og:url" content="https://virtualit.online/" />
     <meta property="og:image" content="src/img/banner.png">
     <meta property="og:site_name" content="VirtualIT - Homepage" />
     <meta property="og:description" content="Just a developer converting Pizza into Code.">
@@ -19,9 +19,9 @@
     <meta name="twitter:description" content="We'll develop and take care of your website, no matter if it's a shop, blog, homepage or just a onepager." />
     <meta name="twitter:image" content="src/img/banner.png" />
     <meta name="keywords" content="development,technology,programming,full-stack,websites,front-end,back-end,web hosting, hosting">
-    <meta name="author" content="Mike Eling">
+    <meta name="author" content="VirtualIT Team">
     <meta name="theme-color" content="#455A64">
-    <link rel="icon" href="src/img/logo/newlogo_black.png">
+    <link rel="icon" href="favicon.png">
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -66,7 +66,7 @@
                     <img class="responsive-img" src="src/img/logo/newlogo_white.png" style="max-width: 280px;"/>
                     <h2 style="opacity: .95; font-size: 4.5rem;"><span style="font-family: prime-light;">virtual</span><span style="font-family: prime-regular;">it</span></h2>
                     <hr class="alpha-3" style="width: 15%">
-                    <h4 class="light alpha-1 lang-late" data-lang-key="description">We will take care of your IT infrastructure</h4>
+                    <h4 class="light alpha-1 lang-late" data-lang-key="description">We bring your website to perfection... and beyond!</h4>
                     <div style="height: 30px;">
                         <p class="light alpha-2"><span id="low_slogan"></span>
                             <br>
@@ -446,7 +446,7 @@
     </div>
 
     <!-- Get in Touch -->
-    <div class="section scrollspy" id="contact-section" style="padding-top: 2.5%; padding-bottom: 2.5%">
+    <div class="section scrollspy" id="contact-section" style="padding-top: 2.5%; padding-bottom: 1%">
         <div class="container">
             <div class="row">
                 <div class="col s12 l8">
@@ -1293,13 +1293,14 @@
             $('.parallax img').ready(function() {
                 $('.welcome-screen').fadeOut();
                 var interv2 = setInterval(function() {
-                    $('.loading-screen').fadeOut(function() { $('.loading-screen').remove(); });
+                    $('.loading-screen').fadeOut(800, function() { $('.loading-screen').remove(); 
                     $('body').css("overflow", "initial");
-                    /*if ($('#cookiebtn').hasClass("scale-out") == false) $('.tap-target').tapTarget('open');*/
+
 
                     var interv3 = setInterval(function() { Materialize.toast("This website is still under development!", 5000); if (firstVisit == "true" || firstVisit == null || firstVisit == "") { $('#twitterbox').css("height", $('#intouchbox').height()); if ($(window).width() <= 745) $('.cookiebox').css("top", "0px");
                             else { $('.cookiebox').css("top", "15px"); } } clearInterval(interv3); }, 300);
                     clearInterval(interv2);
+                    });
                 }, 1000);
             });
 
