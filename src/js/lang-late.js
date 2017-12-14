@@ -6,9 +6,9 @@
 
 var currentLanguage = "ENG";
 
-$.get("http://ipinfo.io", function(response) {
+$.get("https://ipinfo.io", function(response) {
     currentLanguage = response.country;
-    if (currentLanguage == null) { currentLanguage = "ENG"; }
+    if (languageMap[currentLanguage] == null) { currentLanguage = "ENG"; }
     currentLanguage = currentLanguage.toUpperCase();
     changeLanguage(currentLanguage);
 }, "jsonp");
