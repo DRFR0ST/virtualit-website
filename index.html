@@ -64,7 +64,13 @@
                 </div>
                 <div class="parallax-content">
                     <div class="section center white-text">
-                        <img class="responsive-img" src="src/img/logo/logo_white.svg" style="max-width: 280px;" />
+                        <!-- <img class="responsive-img" src="src/img/logo/logo_white.svg" style="max-width: 280px;" /> -->
+                        <picture style="max-width: 280px;">
+                          <source srcset="src/img/logo/logo_white.webp" type="image/webp">
+                          <source srcset="src/img/logo/logo_white.svg" type="image/svg"> 
+                          <source srcset="src/img/logo/logo_white.png" type="image/png"> 
+                          <img src="src/img/logo/logo_white.png" style="max-width: 280px;" />
+                        </picture>
                         <h2 style="opacity: .98; font-size: 4.5rem;"><span style="font-family: prime-light;">virtual</span><span style="font-family: prime-regular;">it</span></h2>
                         <hr class="alpha-3" style="width: 15%">
                         <h4 class="light alpha-1 lang-late" data-lang-key="description">We bring your website to perfection... and beyond!</h4>
@@ -606,7 +612,7 @@
     <div class="ext-modal" id="minipack_xmodal">
         <nav class="blue-grey darken-2">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo center"><img src="src/img/logo/newlogo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
+                <a href="#" class="brand-logo center"><img src="src/img/logo/logo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
                 <ul id="nav-mobile" class="right">
                     <li><a onclick="extModal('#minipack_xmodal', 'close');"><i class="material-icons">close</i></a></li>
                 </ul>
@@ -619,7 +625,7 @@
     <div class="ext-modal" id="optimalpack_xmodal">
         <nav class="amber darken-2">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo center"><img src="src/img/logo/newlogo_black.png" style="max-height: 42px; vertical-align: middle;" /></a>
+                <a href="#" class="brand-logo center"><img src="src/img/logo/logo_black.png" style="max-height: 42px; vertical-align: middle;" /></a>
                 <ul id="nav-mobile" class="right">
                     <li><a onclick="extModal('#optimalpack_xmodal', 'close');"><i class="material-icons">close</i></a></li>
                 </ul>
@@ -632,7 +638,7 @@
     <div class="ext-modal" id="expandedpack_xmodal">
         <nav class="blue">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo center"><img src="src/img/logo/newlogo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
+                <a href="#" class="brand-logo center"><img src="src/img/logo/logo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
                 <ul id="nav-mobile" class="right">
                     <li><a onclick="extModal('#expandedpack_xmodal', 'close');"><i class="material-icons">close</i></a></li>
                 </ul>
@@ -645,7 +651,7 @@
     <div class="ext-modal" id="cmsservices_xmodal">
         <nav class="green lighten-1">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo center"><img src="src/img/logo/newlogo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
+                <a href="#" class="brand-logo center"><img src="src/img/logo/logo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
                 <ul id="nav-mobile" class="right">
                     <li><a onclick="extModal('#cmsservices_xmodal', 'close');"><i class="material-icons">close</i></a></li>
                 </ul>
