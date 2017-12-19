@@ -10,7 +10,7 @@ ErrorDocument 404 /error/file-not-found.html
     deny from all
 </Files>
 
-# Prevent directory listings
+# Prevent directory listings.
 Options All -Indexes
 
 # Compress text, html, javascript, css, xml:
