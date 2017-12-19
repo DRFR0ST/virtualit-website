@@ -1,5 +1,5 @@
-<p align="center"><img src="http://virtualit.online/src/img/logo/logo_color.svg" height="200" width="410"/>
-<p align="center">Website made in 2017 for the VirtualIT Company</p></p>
+<p align="center"><img src="src/img/logo/logo_color.png" height="200" width="410"/>
+<p align="center">Website made in 2017 for the <b>VirtualIT</b> Company</p></p>
 <hr>
 <br>
 
