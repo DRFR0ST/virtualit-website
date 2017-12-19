@@ -1,4 +1,4 @@
-/*!
+/*
  * Lang-Late v0.0.1.0
  * Copyright 2017 Mike Eling
  * MIT License (https://raw.githubusercontent.com/DrFR0ST/virtualit-website/master/LICENSE)
@@ -243,23 +243,6 @@ var languageMap = {
         packcost3: "Indywidualnie dostosowane",
         packcost4: "Zależy od usługi",
 
-        /*	benefitsH1: "Rozwój",
-        	benefitsH2: "Serwisowanie",
-        	benefitsH3: "Wsparcie",
-        	benefitsH4: "Konfiguracja",
-        	benefitsH5: "Hosting WWW", 
-        	benefitsH1S1: "Zoptymalizowane i responsywne oprogramowanie",
-        	benefitsH1S2: "Nowoczesny wygląd oparty na zasadach Material Design",
-        	benefitsH1S3: "Indywidualnie stworzony dla potrzeb klienta",
-        	benefitsH2S1: "Monitoring Twojej infrastruktury 24/7",
-        	benefitsH2S2: "Szybka reakcja i naprawa występujących błędów",
-        	benefitsH3S1: "Profesjonalne wsparcie informatyczne",
-        	benefitsH3S2: "Pomoc w języku angielskim, niemieckim i polskim",
-        	benefitsH4S1: "Instalacja i konfiguracja bloga, sklepu lub innego systemu CMS",
-        	benefitsH4S2: "Wordpress, PrestaShop i wiele innych w ofercie",
-        	benefitsH5S1: "Dostępność Twojej witryny 24/7",
-        	benefitsH5S2: "Zabezpieczenie przed atakami typu DoS/DDoS",*/
-
         contactus: "Skontaktuj sie z nami",
         getpack: "Wybierz pakiet",
 
@@ -302,9 +285,102 @@ var languageMap = {
         cookieDeclarationShort: "Korzystając z witryny bez blokowania plików cookie, użytkownik wyraża zgodę na wykorzystywanie ich przez naszą witrynę.",
     },
     FR: {
-        welcome: "Bienvenue",
+  		welcome: "Bienvenue",
+ 
+        explore: "Découvre",
+ 
+        description: "Nous allons nous occuper de ton infrastructure IT",
+        slogan1: "Ton site internet est importante, n’oublie pas d’en prendre soin.",
+        slogan2: "Ne t’inquiète pas pour la programmation, on va s’en occuper.",
+        slogan3: "Nos ingénieurs sont prêts à créer la programmation pour toi",
+        slogan4: "Nous avons les compétences adéquates dont tu as besoin afin de livrer une marchandise de haute qualité",
+        slogan5: "Nous aimons tes projets autant que nous aimons les nôtres",
+ 
+        optionbox_text01: "Des sites internet de professionnel, de la simple vitrine de visite jusqu’à des systèmes complexes",
+        optionbox_text02: "Tous nos services sont disponibles en polonais, anglais et allemand.",
+        optionbox_text03: "Un hosting rapide et infaillible qui remplit tous les besoins même des clients les plus exigeants.",
+ 
+        ourservices: "Nos services",
+        ourservicesH1: "Des sites internet de professionnels",
+        ourservicesH2: "Nous prenons soin de ta vitrine",
+        ourservicesH3: "Consultations",
+        ourservicesH4: "Configuration des moteurs des sites internet",
+        ourservicesH5: "Hosting WWW",
+        ourservicesS1: "Nous créerons pour toi une page internet unique, conforme à tes besoins et qui remplit les standards actuels.",
+        ourservicesS2: "Nous prendrons soins de ta vitrine, nous sommes à ta disposition pour toutes questions concernant des changements ou corrections.",
+        ourservicesS3: "Nous répondrons à tes questions et nous te conseillerons comment atteindre tes buts dans le domaine de l’informatique.",
+        ourservicesS4: "Nous installerons et configurerons ton blog, ta boutique en ligne et d’autres scriptes fondés sur les moteurs CMS.",
+        ourservicesS5: "Nous offrons l’hosting de ta vitrine sur notre serveur. Nous garantissons une haute disponibilité du service et aussi de sa stabilité dans son utilisation.",
+ 
+ 
+        benefits: "Les paquets proposés",
+ 
+        minipack: "Mini paquet",
+        optimalpack: "paquet optimal",
+        premiumpack: "Paquet élargi",
+        cmsservice: "Les services CMS",
+ 
+        pack_desc1: "le plan le moins cher",
+        pack_desc2: "le plan optimal",
+        pack_desc3: "le plan le plus utile",
+        pack_desc4: "Les services pour les vitrines CMS déjà existantes",
+ 
+        indiweb: "vitrine individuelle",
+        onepager: "vitrine One-Pager",
+        wwwhosting: "WWW Hosting",
+        ftphosting: "serveur des fichiers FTP",
+        servicing: "entretien du serveur",
+        consulting: "consultation",
+        cmsinstall: "Installation du CMS",
+        cmsplugin: "développement du plug CMS",
+        comstheme: "développement du motif CMS",
+ 
+        packcost1: "15€/mois",
+        packcost2: "ou 450€",
+        packcost3: "arrangement individuel",
+        packcost4: "Cela dépend du service",
+ 
+        contactus: "Contacte nous",
+        getpack: "Choisi un paquet",
+ 
+        ourclients: "Nos clients",
+ 
+        ourprojects: "Nos réalisations",
+ 
+        otherservices: "Nos autres services",
+ 
+        otherservicesH1: "WWW Hosting",
+        otherservicesH2: "configuration du domaine",
+        otherservicesH3: "Consultations",
+        otherservicesH1S1: "L’espace réseau pour ta vitrine.",
+        otherservicesH2S1: "enregistrement et configuration des domaines en partant de la base.",
+        otherservicesH3S1: "Un conseil technique fourni rapidement pour votre service.",
+ 
+        getintouch: "reste en contact",
+        getintouchH1: "envoie un message",
+        getintouchH2: "Contact",
+        getintouchH3: "Réseaux sociaux",
+        getintouchH1S1: "Nom",
+        getintouchH1S2: "Adresse Email",
+        getintouchH1S3: "Telephone",
+        getintouchH1S4: "Entreprise",
+        getintouchH1S5: "message",
+ 
+        agree: "j’accepte",
+        order: "commande",
+        send: "envoie",
+        close: "ferme",
+        pricing: "Check pricing",
+        learnmore: "en savoir plus",
+        language: "Langue",
+ 
+        toast: "La langue a été modifiée",
+        postajax: "Merci!<br>Nous répondrons à ton message le plus vite possible",
+ 
+        cookieDeclaration: "En continuant à utiliser le site internet sans bloquer les cookies sur les réglages du navigateur, l’utilisateur accepte l’utilisation des fichiers cookies cités plus hauts.",
+        cookieDeclarationTitle: "Déclaration Cookies",
+        cookieDeclarationShort: "Utilisant le site internet sans bloquer les fichiers cookies, l’utilisateur accepte l’utilisation de ces derniers par notre site.",
 
-        explore: "Explorer",
     }
 };
 
