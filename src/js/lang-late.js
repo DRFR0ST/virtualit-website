@@ -6,12 +6,23 @@
 
 var currentLanguage = "ENG";
 
-$.get("https://ipinfo.io", function(response) {
+$.get("https://ipinfoss.io", function(response) {
     currentLanguage = response.country;
     if (languageMap[currentLanguage] == null) { currentLanguage = "ENG"; }
     currentLanguage = currentLanguage.toUpperCase();
-    changeLanguage(currentLanguage);
-}, "jsonp");
+    
+}, "jsonp")
+	.done(function() {
+		if(currentLanguage != null) changeLanguage(currentLanguage);
+	})
+	.fail(function() {
+		currentLanguage = "ENG";
+		changeLanguage(currentLanguage);
+	})
+	.error(function() {
+		currentLanguage = "ENG";
+		changeLanguage(currentLanguage);
+	});
 
 
 var languageMap = {
