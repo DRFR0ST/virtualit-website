@@ -66,16 +66,16 @@
                     <div class="section center white-text">
                         <!-- <img class="responsive-img" src="src/img/logo/logo_white.svg" style="max-width: 280px;" /> -->
                         <picture style="max-width: 280px;">
-                          <source srcset="src/img/logo/logo_white.webp" type="image/webp">
-                          <source srcset="src/img/logo/logo_white.svg" type="image/svg"> 
-                          <source srcset="src/img/logo/logo_white.png" type="image/png"> 
-                          <img src="src/img/logo/logo_white.png" style="max-width: 280px;" />
+                            <source srcset="src/img/logo/logo_white.webp" type="image/webp">
+                            <source srcset="src/img/logo/logo_white.svg" type="image/svg">
+                            <source srcset="src/img/logo/logo_white.png" type="image/png">
+                            <img src="src/img/logo/logo_white.png" style="max-width: 280px;" />
                         </picture>
                         <h2 style="opacity: .98; font-size: 4.5rem;"><span style="font-family: prime-light;">virtual</span><span style="font-family: prime-regular;">it</span></h2>
                         <hr class="alpha-3" style="width: 15%">
                         <h4 class="light alpha-1 lang-late" data-lang-key="description">We bring your website to perfection... and beyond!</h4>
                         <div style="height: 30px;">
-                            <p class="light alpha-2"><span id="low_slogan"></span>
+                            <p class="light alpha-2 hide-on-small-only"><span id="low_slogan"></span>
                                 <br>
                             </p>
                         </div>
@@ -321,7 +321,7 @@
             <br>
             <div class="row">
                 <div class="col s12 m6 l4">
-                    <div class="card grey lighten-5 hoverable">
+                    <div class="card grey lighten-5 hoverable" style="width: 412px;">
                         <div style="width: 100%; height: 7px; border-top-left-radius: 2px; border-top-right-radius: 2px;" class="blue lighten-3"></div>
                         <div class="card-content">
                             <div style="padding: 15px;">
@@ -338,7 +338,7 @@
                     </div>
                 </div>
                 <div class="col s12 m6 l4">
-                    <div class="card grey lighten-5 hoverable">
+                    <div class="card grey lighten-5 hoverable" style="width: 412px;">
                         <div style="width: 100%; height: 7px; border-top-left-radius: 2px; border-top-right-radius: 2px;" class="green lighten-3"></div>
                         <div class="card-content">
                             <div style="padding: 15px;">
@@ -355,7 +355,7 @@
                     </div>
                 </div>
                 <div class="col s12 m6 l4 offset-m3">
-                    <div class="card grey lighten-5 hoverable">
+                    <div class="card grey lighten-5 hoverable" style="width: 412px;">
                         <div style="width: 100%; height: 7px; border-top-left-radius: 2px; border-top-right-radius: 2px;" class="red lighten-3"></div>
                         <div class="card-content">
                             <div style="padding: 15px;">
@@ -416,24 +416,30 @@
                 <div class="row">
                     <div class="col s12 m6 l4">
                         <br>
-                        <div class="preview-box z-depth-1 hoverable" id="preview-id-0">
-                            <img src="src/img/projects/karutek.png">
-                        </div>
-                        <p class="light center preview-box-title" id="preview-title-0">Karutek - Wordpress Theme</p>
+                        <span class="preview-box-wrapper" fade="true">
+                            <div class="preview-box z-depth-1 hoverable">
+                                <img src="src/img/projects/karutek.png">
+                            </div>
+                            <p class="light center preview-box-title">Karutek - Wordpress Theme</p>
+                        </span>
                     </div>
                     <div class="col s12 m6 l4">
                         <br>
-                        <div class="preview-box z-depth-1 hoverable" id="preview-id-1">
-                            <img src="src/img/projects/wirespace.png">
-                        </div>
-                        <p class="light center preview-box-title" id="preview-title-1">Wirespace - Download Center Website</p>
+                        <span class="preview-box-wrapper" fade="true">
+                            <div class="preview-box z-depth-1 hoverable">
+                                <img src="src/img/projects/wirespace.png">
+                            </div>
+                            <p class="light center preview-box-title">Wirespace - Download Center Website</p>
+                        </span>
                     </div>
                     <div class="col s12 m6 l4 offset-m3">
                         <br>
-                        <div class="preview-box z-depth-1 hoverable" id="preview-id-2">
-                            <img src="src/img/projects/damianportfolio.png">
-                        </div>
-                        <p class="light center preview-box-title" id="preview-title-2">Damian Blochowiak - Portfolio</p>
+                        <span class="preview-box-wrapper" fade="true">
+                            <div class="preview-box z-depth-1 hoverable">
+                                <img src="src/img/projects/damianportfolio.png">
+                            </div>
+                            <p class="light center preview-box-title">Damian Blochowiak - Portfolio</p>
+                        </span>
                     </div>
                 </div>
                 <br>
@@ -610,7 +616,7 @@
     </div>
     <!-- Extended Modals -->
     <div class="ext-modal" id="minipack_xmodal">
-        <nav class="blue-grey darken-2">
+        <nav class="blue-grey darken-3">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo center"><img src="src/img/logo/logo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
                 <ul id="nav-mobile" class="right">
@@ -623,20 +629,81 @@
         </div>
     </div>
     <div class="ext-modal" id="optimalpack_xmodal">
-        <nav class="amber darken-2">
+        <nav class="blue-grey darken-3">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo center"><img src="src/img/logo/logo_black.png" style="max-height: 42px; vertical-align: middle;" /></a>
+                <a href="#" class="brand-logo center"><img src="src/img/logo/logo_white.webp" style="max-height: 42px; vertical-align: middle;" /></a>
                 <ul id="nav-mobile" class="right">
                     <li><a onclick="extModal('#optimalpack_xmodal', 'close');"><i class="material-icons">close</i></a></li>
                 </ul>
             </div>
         </nav>
-        <div class="container">
-            <p class="flow-text lang-late" data-lang-key="ext_pack_desc2"></p>
+        <div class="container" style="position: relative;">
+            <br>
+            <br>
+            <h4 class="center alpha-1">Make it fit your wishes</h4>
+            <hr class="alpha-4" style="width:45%;">
+            <br>
+            <br>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <br>
+                    <div class="preview-box-wrapper" fade="false" scroll="false">
+                        <div class="preview-box z-depth-1 hoverable" style="height: 200px;">
+                            <img src="https://imgur.com/NjqJ4I3.png" />
+                        </div>
+                        <p class="preview-box-title center light">This type tho</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <br>
+                    <div class="preview-box-wrapper" fade="false" scroll="false">
+                        <div class="preview-box z-depth-1 hoverable" style="height: 200px;">
+                            <img src="https://imgur.com/NjqJ4I3.png" />
+                        </div>
+                        <p class="preview-box-title center light">This type tho</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <br>
+                    <div class="preview-box-wrapper" fade="false" scroll="false">
+                        <div class="preview-box z-depth-1 hoverable" style="height: 200px;">
+                            <img src="https://imgur.com/NjqJ4I3.png" />
+                        </div>
+                        <p class="preview-box-title center light">This type tho</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <br>
+                    <div class="preview-box-wrapper" fade="false" scroll="false">
+                        <div class="preview-box z-depth-1 hoverable" style="height: 200px;">
+                            <img src="https://imgur.com/NjqJ4I3.png" />
+                        </div>
+                        <p class="preview-box-title center light">This type tho</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <br>
+                    <div class="preview-box-wrapper" fade="false" scroll="false">
+                        <div class="preview-box z-depth-1 hoverable" style="height: 200px;">
+                            <img src="https://imgur.com/NjqJ4I3.png" />
+                        </div>
+                        <p class="preview-box-title center light">This type tho</p>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <br>
+                    <div class="preview-box-wrapper" fade="false" scroll="false">
+                        <div class="preview-box z-depth-1 hoverable" style="height: 200px;">
+                            <img src="https://imgur.com/NjqJ4I3.png" />
+                        </div>
+                        <p class="preview-box-title center light">This type tho</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="ext-modal" id="expandedpack_xmodal">
-        <nav class="blue">
+        <nav class="blue-grey darken-3">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo center"><img src="src/img/logo/logo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
                 <ul id="nav-mobile" class="right">
@@ -649,7 +716,7 @@
         </div>
     </div>
     <div class="ext-modal" id="cmsservices_xmodal">
-        <nav class="green lighten-1">
+        <nav class="blue-grey darken-3">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo center"><img src="src/img/logo/logo_white.png" style="max-height: 42px; vertical-align: middle;" /></a>
                 <ul id="nav-mobile" class="right">
@@ -905,7 +972,7 @@
 
     .preview-box {
         width: 100%;
-        min-height: 300px;
+        height: 300px;
         overflow: hidden;
         position: relative;
         border-radius: 2px;
@@ -928,7 +995,6 @@
     }
 
     .preview-box-title {
-        opacity: 0;
         transition: all 0.6s ease;
     }
     /* Super Button */
@@ -1300,13 +1366,19 @@
         var expires = "expires=" + d.toUTCString();
         document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
-    </script>
-    <script>
-    //LOADING SCREEN
-    var loadingScreenInterval = 1500;
 
-    particlesJS.load('particles-js', 'inc/particles/json/particles.json', function() {});
-    $('.super-button').tilt({ scale: 1.1, speed: 1000, transition: true });
+    $('#cookiebtn').click(function() {
+        $('#cookiebtn').remove();
+    });
+
+    $('#cookiebox-agree').click(function() {
+        setCookie("firstVisit", "false", 365);
+        $('.cookiebox').css('top', '-505px');
+    });
+    </script>
+    <!-- LOADING SCREEN -->
+    <script>
+    var loadingScreenInterval = 1500;
 
     var firstVisit = getCookie("firstVisit");
     if (firstVisit == "true" || firstVisit == null || firstVisit == "") {
@@ -1329,7 +1401,9 @@
         $('#cookiebtn').addClass("scale-transition scale-out");
         $('.loading-screen #loading-spinner').fadeIn();
     }
-
+    </script>
+    <!-- EXTENDED MODALS -->
+    <script>
     function extModal(id, option) {
         var selector = $(id);
         switch (option) {
@@ -1344,31 +1418,119 @@
                 break;
         }
     }
-
-    $('#cookiebtn').click(function() {
-        $('#cookiebtn').remove();
-    });
-
-    $('#intouch_tabs').click(function() {
-        $('#twitterbox').css("height", $('#intouchbox').height());
-    });
-
+    </script>
+    <!-- PARTICLESJS -->
+    <script>
+    particlesJS.load('particles-js', 'inc/particles/json/particles.json', function() {});
+    </script>
+    <!-- PARTICLESJS -->
+    <script>
+    $('.super-button').tilt({ scale: 1.1, speed: 1000, transition: true });
+    </script>
+    <!-- PREVIEW BOX -->
+    <script>
     $('.preview-box').mouseenter(function() {
-        var id = "#" + this.id;
-        var scrollTo = $(id + ' img').height() - $(id).height();
-        $(id + ' img').css("transform", "translateY(-" + scrollTo + "px)");
-        $('#preview-title-' + id.split('-')[2]).css("opacity", 1);
+        var scrollTo = $(this).children('img').height() - $(this).height();
+        if ($(this).parent().attr("scroll") != "false") $(this).children('img').css("transform", "translateY(-" + scrollTo + "px)");
+        if ($(this).parent().attr("fade") == "true") $(this).siblings('.preview-box-title').css("opacity", 1);
     });
 
     $('.preview-box').mouseleave(function() {
-        var id = "#" + this.id;
-        $(id + ' img').css("transform", "translateY(0%)");
-        $('#preview-title-' + id.split('-')[2]).css("opacity", 0);
+        if ($(this).parent().attr("scroll") != "false") $(this).children('img').css("transform", "translate(0%)");
+        if ($(this).parent().attr("fade") == "true") $(this).siblings('.preview-box-title').css("opacity", 0);
     });
 
+    function previewBoxInit() {
+        $('.preview-box-wrapper').each(function() {
+            if ($(this).attr("fade") == "true") $(this).children('.preview-box-title').css("opacity", 0);
+            else $(this).children('.preview-box-title').css("opacity", 1);
+            if ($(this).attr("scroll") != "false") $(this).children('.preview-box').css("min-height", "100%");
+        });
+    }
+    </script>
+    <!-- RANDOM SLOGAN -->
+    <script>
     var sloganDiceInterval = null;
-    //ONLOAD
+
+    function diceSlogan() {
+        $('#low_slogan').fadeOut(function() {
+            var slogan = "";
+            slogan = getTranslation("DYNAMIC", "slogan" + Math.floor((Math.random() * 4) + 1));
+
+            if (slogan == $('#low_slogan').html()) diceSlogan();
+
+            $('#low_slogan').html(slogan);
+            var interv = setInterval(function() {
+                $('#low_slogan').fadeIn();
+                clearInterval(interv);
+            }, 100);
+
+        });
+    }
+    </script>
+    <!-- LOGO SLIDER -->
+    <script>
+    var logoIndex = 0;
+    var intervSlide;
+    $('.left-arrow').click(function() {
+        clearInterval(intervSlide);
+        changeLogoSlide(-1);
+    });
+
+    $('.right-arrow').click(function() {
+        clearInterval(intervSlide);
+        changeLogoSlide(1);
+    });
+
+    function changeLogoSlide(dir) {
+        clearInterval(intervSlide);
+        $('.logo-slider img').fadeOut("fast", function() {
+
+            var logoIndexLimit = 3; //CHANGE IF ADDING!
+
+            if (dir == -1 && logoIndex == 0) logoIndex = logoIndexLimit + 1;
+            logoIndex += dir;
+            if (dir == 1 && logoIndex > logoIndexLimit) logoIndex = 0;
+
+
+            var setLogoURI = "";
+
+
+            switch (logoIndex) {
+                case 0:
+                    setLogoURI = "src/img/companies/logo01.png";
+                    break;
+
+                case 1:
+                    setLogoURI = "src/img/companies/logo02.png";
+                    break;
+
+                case 2:
+                    setLogoURI = "https://damianblochowiak.xyz/images/mikeeling_logo.png";
+                    break;
+
+                case 3:
+                    setLogoURI = "https://mike-eling.xyz/img/damianblochowiak_logo.png";
+                    break;
+            }
+
+            $('.logo-slider img').attr("src", setLogoURI);
+            $('.logo-slider img').ready(function() {
+                $('.logo-slider .progress').fadeOut("fast", function() {
+                    $('.logo-slider img').fadeIn();
+                });
+            });
+        });
+
+        intervSlide = setInterval(function() {
+            changeLogoSlide(1);
+        }, 12000);
+    }
+    </script>
+    <!-- DOM CALLBACKS -->
+    <script>
     $(document).ready(function() {
+        previewBoxInit();
         diceSlogan();
         changeLogoSlide(1);
         sloganDiceInterval = setInterval(function() {
@@ -1411,87 +1573,9 @@
     $(window).scroll(function() {
 
     });
-
-    $('#cookiebox-agree').click(function() {
-        setCookie("firstVisit", "false", 365);
-        $('.cookiebox').css('top', '-505px');
-    });
-
-    // LOGO SLIDER
-    var logoIndex = 0;
-    var intervSlide;
-    $('.left-arrow').click(function() {
-        clearInterval(intervSlide);
-        changeLogoSlide(-1);
-    });
-
-    $('.right-arrow').click(function() {
-        clearInterval(intervSlide);
-        changeLogoSlide(1);
-    });
-
-    function changeLogoSlide(dir) {
-        clearInterval(intervSlide);
-        $('.logo-slider img').fadeOut("fast", function() {
-            /*$('.logo-slider .progress').fadeIn("");*/
-
-            var logoIndexLimit = 3; //CHANGE IF ADDING!
-
-            if (dir == -1 && logoIndex == 0) logoIndex = logoIndexLimit + 1;
-            logoIndex += dir;
-            if (dir == 1 && logoIndex > logoIndexLimit) logoIndex = 0;
-
-
-            var setLogoURI = "";
-
-
-            switch (logoIndex) {
-                case 0:
-                    setLogoURI = "src/img/companies/logo01.png";
-                    break;
-
-                case 1:
-                    setLogoURI = "src/img/companies/logo02.png";
-                    break;
-
-                case 2:
-                    setLogoURI = "https://damianblochowiak.xyz/images/mikeeling_logo.png";
-                    break;
-
-                case 3:
-                    setLogoURI = "https://mike-eling.xyz/img/damianblochowiak_logo.png";
-                    break;
-            }
-
-            $('.logo-slider img').attr("src", setLogoURI);
-            $('.logo-slider img').ready(function() {
-                $('.logo-slider .progress').fadeOut("fast", function() {
-                    $('.logo-slider img').fadeIn();
-                });
-            });
-        });
-
-        intervSlide = setInterval(function() {
-            changeLogoSlide(1);
-        }, 12000);
-    }
-
-    //RANDOM SLOGAN
-    function diceSlogan() {
-        $('#low_slogan').fadeOut(function() {
-            var slogan = "";
-            slogan = getTranslation("DYNAMIC", "slogan" + Math.floor((Math.random() * 4) + 1));
-
-            if (slogan == $('#low_slogan').html()) diceSlogan();
-
-            $('#low_slogan').html(slogan);
-            var interv = setInterval(function() {
-                $('#low_slogan').fadeIn();
-                clearInterval(interv);
-            }, 100);
-
-        });
-    }
+    </script>
+    <!-- CALLBACKS, WALKAROUNDS, SOME MESS ETC. -->
+    <script>
     </script>
 </body>
 
